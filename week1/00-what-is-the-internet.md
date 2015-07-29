@@ -52,7 +52,7 @@ http://sfbay.california.us/streets/bush/buildings/225?floor=5
   3. Now, type `hello world` - what does that return?
   4. Try it again, but this time with quotes, `"hello world"`. Much better!
 
-## Tonight's Homework
+## Other Stuff
   1. Make sure you have a GitHub account and have successfully pushed your fundamentals project.
   2. Make sure you have the `subl` command set up so you can open Sublime from your Terminal
 
