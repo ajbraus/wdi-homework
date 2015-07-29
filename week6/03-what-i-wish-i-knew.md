@@ -2,6 +2,43 @@
 
 ## 1) Skinny Controllers, Fat Models
 
+> [Sitepoint](http://www.sitepoint.com/10-ruby-on-rails-best-practices/)
+
+Arguably one of the most important ways to write clear and concise code in Ruby on Rails, the motto “Fat Model, Skinny Controller” refers to how the M and C parts of MVC ideally work together. Namely, any non-response-related logic should go in the model, ideally in a nice, testable method. Meanwhile, the “skinny” controller is simply a nice interface between the view and model.
+
+In practice, this can require a range of different types of refactoring, but it all comes down to one idea: by moving any logic that isn’t about the response (for example, setting a flash message, or choosing whether to redirect or render a view) to the model (instead of the controller), not only have you promoted reuse where possible but you’ve also made it possible to test your code outside of the context of a request.
+
+Let’s look at a simple example. Say you have code like this:
+
+```ruby
+def index
+  @published_posts = Post.all :conditions => {['published_at <= ?', Time.now]}
+  @unpublished_posts = Post.all :conditions => {['published_at IS NULL OR published_at > ?', Time.now]}
+end
+```
+
+You can change it to this:
+
+```ruby
+def index
+  @published_posts = Post.all_published
+  @unpublished_posts = Post.all_unpublished
+end
+```
+
+Then, you can move the logic to your post model, where it might look like this:
+
+```ruby
+def self.all_published
+  all :conditions => {['published_at <= ?', Time.now]}
+end
+
+def self.all_unpublished
+  all :conditions => {['published_at IS NULL OR published_at > ?', Time.now]}
+end
+```
+
+With the methods ```Post.all_published``` and ```Post.all_unpublished```, we’ve not only made it simpler to test our code, we’ve also made it possible to reuse that same set of conditions in another location.
 
 ## 2) byebug
 
