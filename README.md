@@ -1,1 +1,1 @@
-# wdi-homework
+# WDI Homework

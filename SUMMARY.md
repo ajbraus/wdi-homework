@@ -1,0 +1,26 @@
+# Summary
+
+* [Week 1 Dev Tools & Fundamentals](week1/README.md)
+  <!-- * [What is the Internet?](week1/what-is-the-internet.md)
+  * [JS Data Types](week1/what-is-the-internet.md)
+  * [Control Flow](week1/what-is-the-internet.md)
+  * [Functions & Callbacks](week1/what-is-the-internet.md)
+  * [The DOM](week1/what-is-the-internet.md) -->
+* [Week 2 jQuery & APIs](week2/README.md)
+  <!-- * [jQuery](week2/jquery.md)
+  * [Underscore Templating](week2/jquery.md)
+  * [Bootstrap JS](week2/jquery.md)
+  * [API Design](week2/jquery.md) -->
+* [Week 3 API Design & RESTful Routes](week3/README.md)
+* [Week 4](week4/README.md)
+* [Week 5](week5/README.md)
+* [Week 6](week6/README.md)
+  * [Intro to Ruby](week6/00-intro-to-ruby.md)
+  * [Intro to Rails](week6/01-intro-to-rails.md)
+  * [Rails Templating](week6/02-rails-templating.md)
+* [Week 7](week7/README.md)
+* [Week 8](week8/README.md)
+* [Week 9](week9/README.md)
+* [Week 10](week10/README.md)
+* [Week 11](week11/README.md)
+* [Week 12](week12/README.md)
