@@ -1,9 +1,5 @@
 # Rails Models, Resources & Templating
 
-| Objectives |
-|:--- |
-| ... become familiar with Rails' ```erb``` templating helpers |
-
 ## Resources
 
 [![Rails Resources](http://img.youtube.com/vi/QYHdAGRzmMA/0.jpg)](https://www.youtube.com/watch?v=QYHdAGRzmMA)
