@@ -8,7 +8,11 @@
 
 The rails framework is based on a server-side architecture. The client will be passive and the server is very active. The server sends primarily HTML (and not JSON) back to the client. The server (not the client) will keep track of "state". State will be reflected in the HTML with which the server responds. That HTML is built with server-side templating called "erb" - **Embedded Ruby**.
 
-Rails uses embedded ruby inside HTML templates to integrate data from the controllers into the templates and to make it easier to write HTML. Here are a list of erb template helpers with examples. 
+The Rails framework provides a large number of helpers for working with assets, dates, forms, numbers and model objects, to name a few. These helpers are available to all templates by default.
+
+In addition to using the standard template helpers provided, creating custom helpers to extract complicated logic or reusable functionality is strongly encouraged.
+
+Here are a list of some built-in erb template helpers with examples.
 
 ## Helpers
 
@@ -31,6 +35,17 @@ HTML
 erb
 ```html
 <%= link_to "Show", article_path(@article) %>
+```
+
+### URL Links
+HTML
+```html
+<a href="http://google.com">Google</a>
+```
+
+erb
+```html
+<%= link_to "Google", "http://google.com" %>
 ```
 
 ### Images
@@ -88,3 +103,6 @@ number_to_phone(1235551234) # => 123-555-1234
 'author_id'.humanize                    # => "Author"
 'author_id'.humanize(capitalize: false) # => "author"
 ```
+
+### Other built-in Rails helpers worth mentioning
+```yield```, ```content_for```
