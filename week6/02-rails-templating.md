@@ -1,10 +1,17 @@
-# Rails Templating
+# Rails Models, Resources & Templating
 
 | Objectives |
 |:--- |
 | ... become familiar with Rails' ```erb``` templating helpers |
 
-## Background
+## Resources
+
+[![Rails Resources](http://img.youtube.com/vi/QYHdAGRzmMA/0.jpg)](https://www.youtube.com/watch?v=QYHdAGRzmMA)
+
+## Models
+[![Rails Models](http://img.youtube.com/vi/rKtLU2LcGA8/0.jpg)](https://www.youtube.com/watch?v=rKtLU2LcGA8)]
+
+## Templating
 
 The rails framework is based on a server-side architecture. The client will be passive and the server is very active. The server sends primarily HTML (and not JSON) back to the client. The server (not the client) will keep track of "state". State will be reflected in the HTML with which the server responds. That HTML is built with server-side templating called "erb" - **Embedded Ruby**.
 

@@ -17,7 +17,7 @@
 * [Week 6](week6/README.md)
   * [Intro to Ruby](week6/00-intro-to-ruby.md)
   * [Intro to Rails](week6/01-intro-to-rails.md)
-  * [Rails Templating](week6/02-rails-templating.md)
+  * [Rails Models, Resources & Templating](week6/02-rails-templating.md)
 * [Week 7](week7/README.md)
 * [Week 8](week8/README.md)
 * [Week 9](week9/README.md)
