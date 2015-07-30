@@ -59,8 +59,7 @@ u.posts
 ```
 Yay it worked! If the association were not setup correctly we would have gotten an error that ```.posts``` was not a valid method to call on a user instance.
 
-## 5) Make Friends with The Asset Pipeline
-## 2) Rails Magic to Ignore
+## 5) Rails Magic to Ignore
   * has_and_belongs_to_many
   * devise
   * acts_as_taggable
