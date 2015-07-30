@@ -1,8 +1,8 @@
 # Summary
 
 * [Week 1 Dev Tools & Fundamentals](week1/README.md)
-  <!-- * [What is the Internet?](week1/what-is-the-internet.md)
-  * [JS Data Types](week1/what-is-the-internet.md)
+  <!-- * [What is the Internet?](week1/what-is-the-internet.md) -->
+  <!-- * [JS Data Types](week1/what-is-the-internet.md)
   * [Control Flow](week1/what-is-the-internet.md)
   * [Functions & Callbacks](week1/what-is-the-internet.md)
   * [The DOM](week1/what-is-the-internet.md) -->
@@ -18,6 +18,7 @@
   * [Intro to Ruby](week6/00-intro-to-ruby.md)
   * [Intro to Rails](week6/01-intro-to-rails.md)
   * [Rails Models, Resources & Templating](week6/02-rails-templating.md)
+  * [What I Wish I Knew About Rails](week6/03-what-i-wish-i-knew.md)
 * [Week 7](week7/README.md)
   * [Rails Asset Pipeline](week7/00-asset-pipeline.md)
 * [Week 8](week8/README.md)
