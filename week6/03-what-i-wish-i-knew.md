@@ -10,39 +10,21 @@ In practice, this can require a range of different types of refactoring, but it 
 
 Let’s look at a simple example. Say you have code like this:
 
-```ruby
 
+```ruby
+@user = User.new(params[:user])
+@user.first_name, @user.last_name = params[:user][:full_name].split(" ", 2)
 ```
 
+You can change the second line to this:
+
 ```ruby
-def index
-  @published_posts = Post.where('published_at <= ?', Time.now)
-  @unpublished_posts = Post.where('published_at IS NULL OR published_at > ?', Time.now)
+def full_name=(value)
+  self.first_name, self.last_name = value.to_s.split(" ", 2)
 end
 ```
 
-You can change it to this:
-
-```ruby
-def index
-  @published_posts = Post.all_published
-  @unpublished_posts = Post.all_unpublished
-end
-```
-
-Then, you can move the logic to your post model, where it might look like this:
-
-```ruby
-def self.all_published
-  all :conditions => {['published_at <= ?', Time.now]}
-end
-
-def self.all_unpublished
-  all :conditions => {['published_at IS NULL OR published_at > ?', Time.now]}
-end
-```
-
-With the methods ```Post.all_published``` and ```Post.all_unpublished```, we’ve not only made it simpler to test our code, we’ve also made it possible to reuse that same set of conditions in another location.
+Whenever you set the ```full_name attribute```, your model will now automatically set the ```first_name``` and ```last_name``` attributes for you as well, even though ```full_name``` doesn’t exist in the database. Likewise, you’ll typically want to define a getter method, ```full_name```, that returns ```"#{first_name} #{last_name}"```.
 
 
 ## 2) byebug
