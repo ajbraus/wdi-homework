@@ -1,4 +1,4 @@
-#What I Wish I Had Known About Rails
+# 7 Things I Wish I Had Known About Rails
 
 ## 1) Skinny Controllers, Fat Models
 
@@ -24,7 +24,7 @@ def full_name=(value)
 end
 ```
 
-Whenever you set the ```full_name attribute```, your model will now automatically set the ```first_name``` and ```last_name``` attributes for you as well, even though ```full_name``` doesn’t exist in the database. Likewise, you’ll typically want to define a getter method, ```full_name```, that returns ```"#{first_name} #{last_name}"```.
+Whenever you set the ```full_name``` attribute, your model will now automatically set the ```first_name``` and ```last_name``` attributes for you as well, even though ```full_name``` doesn’t exist in the database. Likewise, you’ll typically want to define a getter method, ```full_name```, that returns ```"#{first_name} #{last_name}"```.
 
 
 ## 2) byebug
@@ -78,6 +78,3 @@ This gem is brought to the world by Thoughtbot - one of the leading Ruby on Rail
 "Migration" files in rails are made to create and update SQL tables and columns in our database. And they are great at it. They make it so our database is both versioned and easily reproducible on other machines. They act as a sort of story of how our database started and grew and changed.
 
 One thing that is sometimes overlooked with migrations is that you can use them to update data in your database as well. They are "Data Migrations".
-
-## 8) Rails API is a thing
-## 9) ... Just brainstorming here

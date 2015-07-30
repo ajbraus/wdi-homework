@@ -18,7 +18,7 @@
   * [Intro to Ruby](week6/00-intro-to-ruby.md)
   * [Intro to Rails](week6/01-intro-to-rails.md)
   * [Rails Models, Resources & Templating](week6/02-rails-templating.md)
-  * [What I Wish I Knew About Rails](week6/03-what-i-wish-i-knew.md)
+  * [7 Things I Wish I Had Known About Rails](week6/03-what-i-wish-i-knew.md)
 * [Week 7](week7/README.md)
   * [Rails Asset Pipeline](week7/00-asset-pipeline.md)
 * [Week 8](week8/README.md)
