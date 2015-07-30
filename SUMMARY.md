@@ -19,6 +19,7 @@
   * [Intro to Rails](week6/01-intro-to-rails.md)
   * [Rails Models, Resources & Templating](week6/02-rails-templating.md)
 * [Week 7](week7/README.md)
+  * [Rails Asset Pipeline](week7/00-asset-pipeline.md)
 * [Week 8](week8/README.md)
 * [Week 9](week9/README.md)
 * [Week 10](week10/README.md)

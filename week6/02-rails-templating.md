@@ -5,6 +5,7 @@
 [![Rails Resources](http://img.youtube.com/vi/QYHdAGRzmMA/0.jpg)](https://www.youtube.com/watch?v=QYHdAGRzmMA)
 
 ## Models
+
 [![Rails Models](http://img.youtube.com/vi/rKtLU2LcGA8/0.jpg)](https://www.youtube.com/watch?v=rKtLU2LcGA8)]
 
 ## Templating
