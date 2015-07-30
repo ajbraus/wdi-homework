@@ -8,7 +8,7 @@ Arguably one of the most important ways to write clear and concise code in Ruby 
 
 In practice, this can require a range of different types of refactoring, but it all comes down to one idea: by moving any logic that isn’t about the response (for example, setting a flash message, or choosing whether to redirect or render a view) to the model (instead of the controller), not only have you promoted reuse where possible but you’ve also made it possible to test your code outside of the context of a request.
 
-Let’s look at a simple example. Say you have code like this:
+Let’s look at a simple example. Say you have code like this in your controller:
 
 
 ```ruby
@@ -16,7 +16,7 @@ Let’s look at a simple example. Say you have code like this:
 @user.first_name, @user.last_name = params[:user][:full_name].split(" ", 2)
 ```
 
-You can change the second line to this:
+You can move the second line to your User model like this:
 
 ```ruby
 def full_name=(value)
