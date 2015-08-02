@@ -60,9 +60,17 @@ u.posts
 Yay it worked! If the association were not setup correctly we would have gotten an error that ```.posts``` was not a valid method to call on a user instance.
 
 ## 5) Rails Magic to Ignore
-  * has_and_belongs_to_many
-  * devise
-  * acts_as_taggable
+
+Rails has a lot of magic and magical gems you can use. Here are some seductive pieces of magic that IMO you can ignore.
+
+  ### has_and_belongs_to_many
+Rails is so fancy with its awesome `has_many` and `belongs_to` methods. Wouldn't it be great if there were a model method for many-to-many relationships? Here it is: `has_and_belongs_to_many`. Oh man awesome, thanks rails. But wait, I'd like there to be data stored on the join table. And I'd like the join table to be named something reasonable like `reservations` or `follows` or `subscriptions` but I can't do any of that if I use this fancy method. Instead I should have used `has_many :through`.
+  ### devise
+Here is a fancy-pants gem for authentication. OMG it just works! Until you want to customize it. Oh that's not too hard. But wait now I want the controller logic to be a tinsy bit different. This is HORRRIBLE - AHHHHH I wish I had rolled my own authentication!
+  ### acts_as_taggable
+Rails has a fancy "tags" gem that creates a many-to-many relationship to a tags resource.
+  ### remote: true
+Rails allows you to make forms submit though AJAX simply by adding `remote: true` to a `form_for` method. But do not be seduced by this. It is better to just use jQuery.
 
 ## 6) Paperclip
 
@@ -77,3 +85,11 @@ This gem is brought to the world by Thoughtbot - one of the leading Ruby on Rail
 "Migration" files in rails are made to create and update SQL tables and columns in our database. And they are great at it. They make it so our database is both versioned and easily reproducible on other machines. They act as a sort of story of how our database started and grew and changed.
 
 One thing that is sometimes overlooked with migrations is that you can use them to update data in your database as well. They are "Data Migrations".
+
+Example:
+
+1. Say you started with a `name` column, but now you want to go back and make a `first` and a `last` column and make a `full_name` virtual attribute. In a new migration you should write something like this.
+
+```
+
+```
