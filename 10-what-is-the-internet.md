@@ -6,11 +6,16 @@
 | Use the Chrome Developer Tools to explore and manipulate the Elements, Sources, Resources, and JS Console. |
 
 ## What is the internet?
+
+The internet is a wonderful thing. But how does it work?
+
 ![theinternet](http://www.mindthesciencegap.org/wp-content/uploads/2013/07/the-internet-1024x691.jpg)
 ![thegoogle](http://2.bp.blogspot.com/-733-FaBo8NI/UqrprWh_2_I/AAAAAAAACUo/3EnmfKisTHI/s1600/The-Internet-map11.png)
 ![theinterwebs](https://mountpeaks.files.wordpress.com/2012/03/1069646562-lgl-2d-4096x40962.png)
 
 ## Domains, Paths, and IP Addresses
+
+The Internet is a network of computers that communicate through requests and responses. These requests and responses are sent to and received from distinct locations in the network. Each location is determined by a unique address.
 
 ![requestresponse](http://s.hswstatic.com/gif/internet-diagram.gif)
 
