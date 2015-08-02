@@ -1,4 +1,4 @@
-# How to Start a New Project
+# Outside-In Development and Anti-Patterns
 
 So you are a developer now, and you want to start a project. Where should you start?
 
