@@ -1,18 +1,29 @@
-# Know Your Relationships!
-| Objective                                                                     |  
-| :-------------------                                                          |  
-| Understand how to create one-to-many and many-to-many relationships in rails. |  
-| Understand how to modify migrations to add foreign keys to tables             |  
-| Understand how to create a join table                                         |  
-| Understand how to create model instances when they have associations.         |  
+# Intro to ActiveRecord
 
-Today we'll be:
+## What is ActiveRecord?
 
- - Reviewing what you already learned about associations from Mongoose
- - Translating what you've learned into Rails
- - Discussing migrations. _This is a new concept for us!_
+> [Rails Guide](http://guides.rubyonrails.org/active_record_basics.html)
 
----
+
+Active Record is the M in MVC - the model - which is the layer of the system responsible for representing business data and logic. Active Record facilitates the creation and use of business objects whose data requires persistent storage to a database. It is an implementation of the Active Record pattern which itself is a description of an Object Relational Mapping (ORM) system.
+
+Active Record gives us several mechanisms, the most important being the ability to:
+* Represent models and their data.
+* Represent associations between these models.
+* Represent inheritance hierarchies through related models.
+* Validate models before they get persisted to the database.
+* Perform database operations in an object-oriented fashion.
+
+
+###Would you rather...
+
+| ActiveRecord | SQL |
+| :-------------------- | :------- |
+| User.all | `SELECT * from users` |
+| User.find(123) | `SELECT * from users WHERE users.id = 123 LIMIT 1` |
+| user.posts | `SELECT * from posts WHERE posts.user_id = 123` |
+| student.courses | `SELECT * FROM courses INNER JOIN enrollments ON courses.id = enrollments.course_id 	WHERE enrollments.student_id = 456	` |
+
 
 ## Vocab
 
@@ -36,25 +47,15 @@ You can think of your database schema as a "living document", reflecting the cur
 
 Migrations provide us with a mechanism for changing/evolving our database schema over time, as well as a controlled way to "undo" or "roll back" those changes. Each migration represents an historical/incrimental change to our database schema (you can think of it like a git commit). Examples of migrations are creating, deleting and altering tables (and their existing columns). Before you can start manipulating your models, you *MUST* create and run a migration. QUESTION: Why didn't we use migrations in Mongo?
 
-
----
-
-##Would you rather...
-
-| ActiveRecord | SQL |
-| :-------------------- | :------- |
-| User.all | `SELECT * from users` |
-| User.find(123) | `SELECT * from users WHERE users.id = 123 LIMIT 1` |
-| user.posts | `SELECT * from posts WHERE posts.user_id = 123` |
-| student.courses | `SELECT * FROM courses INNER JOIN enrollments ON courses.id = enrollments.course_id 	WHERE enrollments.student_id = 456	` |
-
----
-
 ## AciveRecord CRUD (in the Console)
 
-Open up your terminal and navigate to the root of a recent rails project that you know has items in the database. Open up the console by typing ```rails console``` or ```rails c```.
+Open up your terminal and navigate to the root of a recent rails project.
 
-**IMPORTANT: Here we will use a ```User``` model. Just replace ```User``` with a model that you have in your project.**
+### Create a ```User``` model
+
+Type ```$ rails g model User first_name:string last_name:string age:integer``` into terminal.
+
+Open up the console by typing ```rails console``` or ```rails c```.
 
 #### Create
 * `User.create(first_name: "Abraham", last_name: "Lincoln")`
