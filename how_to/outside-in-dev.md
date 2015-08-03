@@ -24,6 +24,8 @@ For a client-side application, generally it is good to work from the **Outside-I
 
 2. Add dynamic data
   ```js
+    // scripts.js
+
     var post = { title:"I like Candy Bars", body: "There once was a man from nantucket"}
     var $postTemplate = _.template($('#postTemplate').html());
     $('#posts').append($postTemplate(post))
@@ -31,6 +33,8 @@ For a client-side application, generally it is good to work from the **Outside-I
 3. Fetch dynamic data from the server or API
 
   ```js
+    // scripts.js
+
     $.get('/posts', function(data) {
       _.each(data, function(post) {
         $('#posts').append($postTemplate(post))
@@ -39,6 +43,8 @@ For a client-side application, generally it is good to work from the **Outside-I
   ```
 4. Add a server route
   ```js
+    // server.js
+
     app.get('/posts', function(req, res) {
       res.json(Post.query);
     })
@@ -58,12 +64,16 @@ here's an example in rails
 1. Define the route and controller
 
   ```ruby
+    # config/routes.rb
+
     Rails.application.routes.draw do
       root: 'posts#index'
       resource :posts, only: [:index]
     end
   ```
   ```ruby
+    # controllers/posts_controller.rb
+
     class PostsController << ApplicationController
       def index
       end
@@ -77,9 +87,12 @@ here's an example in rails
 
 3. Once your template is visible at '/posts', then add controller logic.
   ```ruby
+    # posts_controller.rb
+    # ...
     def index
       @posts = Post.all
     end
+    # ...
   ```
 
 4. Then create the model and database.
