@@ -63,6 +63,9 @@ SELECT * FROM clients WHERE (clients.created_at BETWEEN '2008-12-21 00:00:00' AN
 ```
 
 ## SQL injection attacks
+
+> [Rails Guide](http://guides.rubyonrails.org/security.html#sql-injection)
+
 SQL injection attacks aim at influencing database queries by manipulating web application parameters. A popular goal of SQL injection attacks is to bypass authorization. Another goal is to carry out data manipulation or reading arbitrary data. Here is an example of how not to use user input data in a query:
 
 ```ruby
