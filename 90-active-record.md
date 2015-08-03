@@ -2,7 +2,7 @@
 
 ## What is ActiveRecord?
 
-ActiveRecord handles all database interaction in Rails.
+ActiveRecord makes it easy for you to interact with your database in Rails.
 
 
 > [About Tech](http://ruby.about.com/od/rubyonrails/ss/What-Is-Activerecord.htm)
@@ -17,8 +17,8 @@ For example, say the web application in question is the blog. You display the la
 | :-------------------- | :------- |
 | User.all | `SELECT * from users` |
 | User.find(123) | `SELECT * from users WHERE users.id = 123 LIMIT 1` |
-| user.posts | `SELECT * from posts WHERE posts.user_id = 123` |
-| student.courses | `SELECT * FROM courses INNER JOIN enrollments ON courses.id = enrollments.course_id 	WHERE enrollments.student_id = 456	` |
+| @user.posts | `SELECT * from posts WHERE posts.user_id = 123` |
+| @student.courses | `SELECT * FROM courses INNER JOIN enrollments ON courses.id = enrollments.course_id 	WHERE enrollments.student_id = 456	` |
 
 
 ## Vocab
