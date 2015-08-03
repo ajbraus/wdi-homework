@@ -62,6 +62,26 @@ Client.where(created_at: (Time.now.midnight - 1.day)..Time.now.midnight)
 SELECT * FROM clients WHERE (clients.created_at BETWEEN '2008-12-21 00:00:00' AND '2008-12-22 00:00:00')
 ```
 
+## SQL injection attacks
+SQL injection attacks aim at influencing database queries by manipulating web application parameters. A popular goal of SQL injection attacks is to bypass authorization. Another goal is to carry out data manipulation or reading arbitrary data. Here is an example of how not to use user input data in a query:
+
+```ruby
+Project.where("name = '#{params[:name]}'")
+```
+
+This could be in a search action and the user may enter a project's name that they want to find. If a malicious user enters ' OR 1 --, the resulting SQL query will be:
+
+```console
+SELECT * FROM projects WHERE name = '' OR 1 --'
+```
+The two dashes start a comment ignoring everything after it. So the query returns all records from the projects table including those blind to the user. This is because the condition is true for all records.
+
+To avoid this, you can pass an array to sanitize tainted strings like this:
+
+```ruby
+Model.where("login = ? AND password = ?", entered_user_name, entered_password).first
+```
+
 
 ## AciveRecord CRUD (in the Console) aka Get Ur Hands Dirrrrty
 
