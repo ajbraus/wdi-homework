@@ -4,7 +4,6 @@
 
 ActiveRecord handles all database interaction in Rails.
 
-## Why and an Example
 
 > [About Tech](http://ruby.about.com/od/rubyonrails/ss/What-Is-Activerecord.htm)
 
@@ -52,7 +51,7 @@ Open up your terminal and navigate to the root of a recent rails project.
 
 Create a new model in terminal.
 
-`rails g model User first_name:string last_name:string age:integer` 
+`rails g model User first_name:string last_name:string age:integer`
 
 Migrate the database to create the ```User``` table.
 
