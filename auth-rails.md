@@ -70,7 +70,7 @@ end
 
 ## Current User
 
-If you want a `current_user` method to be available in all your controllers and views, then you'll want to define an application level helper that looks up the user from the `session[:user_id]` if it exists.
+If you want an `@current_user` method to be available in all your controllers and views, then you'll want to define an application level helper method that looks up the user from the `session[:user_id]` if it exists.
 
 ```ruby
 #
@@ -79,10 +79,16 @@ If you want a `current_user` method to be available in all your controllers and 
 
 class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
-  
+
   def current_user
-    return User.find(session[:user_id]) if session[:user_id]
+    @current_user ||= session[:user_id] && User.find_by_id(session[:user_id])
   end
+
+  helper_method :current_user #make it available in views
 end
 
 ```
+You can use this `@current_user` object to do a lot
+
+* Authorization - `@current_user.present?` means the user is logged in.
+* User Profile - `user_path(@current_user)` will be the path to the current user's profile
