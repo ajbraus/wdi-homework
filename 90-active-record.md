@@ -1,4 +1,4 @@
-# Intro to ActiveRecord
+# Intro to Active Record, Validations, and Querying
 
 ## What is ActiveRecord?
 
@@ -43,7 +43,61 @@ You can think of your database schema as a "living document", reflecting the cur
 
 Migrations provide us with a mechanism for changing/evolving our database schema over time, as well as a controlled way to "undo" or "roll back" those changes. Each migration represents an historical/incrimental change to our database schema (you can think of it like a git commit). Examples of migrations are creating, deleting and altering tables (and their existing columns). Before you can start manipulating your models, you *MUST* create and run a migration. QUESTION: Why didn't we use migrations in Mongo?
 
-## AciveRecord CRUD (in the Console)
+---
+
+# Validations
+
+> [Rails Guide](http://guides.rubyonrails.org/active_record_basics.html)
+
+Active Record allows you to validate the state of a model before it gets written into the database. There are several methods that you can use to check your models and validate that an attribute value is not empty, is unique and not already in the database, follows a specific format and many more.
+
+Validation is a very important issue to consider when persisting to the database, so the methods save and update take it into account when running: they return false when validation fails and they didn't actually perform any operation on the database. All of these have a bang counterpart (that is, ```save!``` and ```update!```), which are stricter in that they raise the exception ```ActiveRecord::RecordInvalid``` if validation fails. A quick example to illustrate:
+
+```ruby
+class User < ActiveRecord::Base
+  validates :name, presence: true
+end
+
+user = User.new
+user.save  # => false
+user.save! # => ActiveRecord::RecordInvalid: Validation failed: Name can't be blank
+```
+
+#Querying
+
+> [Rails Guide](http://guides.rubyonrails.org/active_record_querying.html)
+
+To retrieve objects from the database, Active Record provides several finder methods. Each finder method allows you to pass arguments into it to perform certain queries on your database without writing raw SQL.
+
+Active Record ships with these methods:
+
+```console
+bind
+create_with
+distinct
+eager_load
+extending
+from
+group
+having
+includes
+joins
+limit
+lock
+none
+offset
+order
+preload
+readonly
+references
+reorder
+reverse_order
+select
+uniq
+where
+```
+
+## AciveRecord CRUD (in the Console) aka Get Ur Hands Dirrrrty
 
 Open up your terminal and navigate to the root of a recent rails project.
 
@@ -59,35 +113,37 @@ Migrate the database to create the ```User``` table.
 
 Open up the console by typing ```rails console``` or ```rails c```.
 
-#### Create
-* `User.create(first_name: "Abraham", last_name: "Lincoln")`
-* `User.create(first_name: "Abraham", last_name: "Maslow")`
+### Create
+`User.create(first_name: "Abraham", last_name: "Lincoln")`
+`User.create(first_name: "Abraham", last_name: "Maslow")`
 
 NB: See all your users with `User.all`
 
 
-#### Update
+### Update
 
-* Find - `user = User.find(1)` #the number '1' passed into the find method corresponds to the id of the user it will find
-* Set - `user.first_name = "Taco"`
-* Save - `user.save`
+Find - `user = User.find(1)` #the number '1' passed into the find method corresponds to the id of the user it will find
+Set - `user.first_name = "Taco"`
+Save - `user.save`
 
 **or**
 
-* Find — `user = User.find(1)`
-* Update — `user.update_attributes(first_name: "Taco")`
+Find — `user = User.find(1)`
+Update — `user.update_attributes(first_name: "Taco")`
 
-#### Delete
+### Delete
 
-* Find - `user = User.find(1)`
-* Destroy - `user.destroy`
+Find - `user = User.find(1)`
+Destroy - `user.destroy`
 
-#### More Finding
+### More Finding
 
-* `User.all` -> returns an array of allusers
-* `User.find_by_last_name('Lincoln')` -> replace last_name with any param in your model. This command returns only the first user that meets the criteria.
-* `User.where(first_name: 'Abraham')` -> returns an array of users that meet the criteria
-* `User.first` -> finds first user
-* `User.last` -> finds last user
+`User.all` -> returns an array of allusers
+`User.find_by_last_name('Lincoln')` -> replace last_name with any param in your model. This command returns only the first user that meets the criteria.
+`User.where(first_name: 'Abraham')` -> returns an array of users that meet the criteria
+`User.first` -> finds first user
+`User.last` -> finds last user
 
 ---
+
+***Keep going:*** Try out other querying methods from the list above. 
