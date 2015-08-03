@@ -109,7 +109,3 @@ Destroy - `user.destroy`
 `User.where(first_name: 'Abraham')` -> returns an array of users that meet the criteria
 `User.first` -> finds first user
 `User.last` -> finds last user
-
----
-
-***Keep going:*** Try out other fun queries!
