@@ -2,18 +2,15 @@
 
 ## What is ActiveRecord?
 
-> [Rails Guide](http://guides.rubyonrails.org/active_record_basics.html)
+ActiveRecord handles all database interaction in Rails.
 
+## Why and an Example
 
-Active Record is the M in MVC - the model - which is the layer of the system responsible for representing business data and logic. Active Record facilitates the creation and use of business objects whose data requires persistent storage to a database. It is an implementation of the Active Record pattern which itself is a description of an Object Relational Mapping (ORM) system.
+> [About Tech](http://ruby.about.com/od/rubyonrails/ss/What-Is-Activerecord.htm)
 
-Active Record gives us several mechanisms, the most important being the ability to:
-* Represent models and their data.
-* Represent associations between these models.
-* Represent inheritance hierarchies through related models.
-* Validate models before they get persisted to the database.
-* Perform database operations in an object-oriented fashion.
+ActiveRecord maps a database row to an object in Ruby. What this means in practice is that you use ActiveRecord to create or retrieve your data and use traditional Ruby methods and attribute assignments to interact with this data. Instead of composing a SQL query manually, filling in the search parameters, sending it off to a database API, running the query, examining and parsing the result and storing the result in either a hash or a database, you let ActiveRecord do all that for you.
 
+For example, say the web application in question is the blog. You display the latest blog entry on the front page, so you need to retrieve that entry first. Using an SQL statement, you'd compose an SQL query something like ```SELECT * FROM posts ORDER BY date DESC LIMIT 1```. That's quite the mouthful for what you really want to say, which is "get me the latest blog post." Using ActiveRecord, that query now becomes something like ```p = Post.last```. That's it, ActiveRecord knows what you want, composes the SQL query for you, submits it, parses the output and puts in a handy Ruby object for you to use. You can now refer to the post's title with method calls like ```p.title```, assign to it using ```p.title = "A new title"``` and save it back to the database with ```p.save```.
 
 ###Would you rather...
 
