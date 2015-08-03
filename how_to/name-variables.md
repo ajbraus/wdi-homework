@@ -4,7 +4,19 @@ As software developers we mostly have to follow the rules of logic and the synta
 
 ## Domain Specific Language (DSL)
 
+Having a well defined **Domain Specific Language (DSL)** makes your code easier to read and maintain and it makes it easier to write. A DSL is a specific set of nouns and verbs that let you speak about the functioning of the code in English. For example, in a blog you have should probably name your models `Articles` and `Comments`. Your comment could have an attribute `author_id` which links it to the id of the user who wrote it. `@comment.author`. This is obvious for a conventional example like a blog. Come up with a more abstract example and how you would name your models, resources, methods, and variables.
 
+Here are some examples of good and bad DSL attribute choices:
+
+Bad
+* leaving_time
+* publish_date
+* price
+
+Good
+* leaving_at
+* published_on
+* price_in_cents
 
 ## Reserved Words
 
