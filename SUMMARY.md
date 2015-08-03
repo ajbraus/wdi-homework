@@ -6,3 +6,4 @@
 * [Rails Models, Resources & Templating](60-rails-templating.md)
 * [7 Things I Wish I Had Known About Rails](65-what-i-wish-i-knew.md)
 * [Rails Asset Pipeline](70-asset-pipeline.md)
+* [Active Record](active-record.md)
