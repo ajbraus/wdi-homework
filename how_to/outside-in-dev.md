@@ -1,8 +1,6 @@
 # Outside-In Development and Anti-Patterns
 
-So you are a developer now, and you want to start a project. Where should you start?
-
-There are a couple options of where to start and how to run a project.
+Here are some patterns that will help you be a successful and efficient developer, and some anti-patterns, that if you are not careful will make you the opposite.
 
 ## Outside-In Development
 

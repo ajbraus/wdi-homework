@@ -1,20 +1,10 @@
 # Project Planning
 
-| Objectives |
-| :--- |
-| Use User Stories, Schema Drawings, and Kandan Boards to plan development projects  |
-
-| Concepts | Tools | Activities |
-| :---: | :---: | :---: |
-| Agile Development (not Waterfall!) | User Stories, Schema Drawings, Kanban Board | Plan Project 0 |
-
-### Motivation (Why?)
-
-There is a lot to do in web development? Where do you start? What steps do you take first?
+There is a lot to do in web development. Where do you start? What steps do you take first?
 
 These tools are the industry standard for web development and software engineering at all levels from the smallest startup to Airbnb.
 
-### Analogy (What?)
+## Analogy (What?)
 
 Putting on your pants while in the shower.
 
