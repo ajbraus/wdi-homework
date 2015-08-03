@@ -50,7 +50,13 @@ Open up your terminal and navigate to the root of a recent rails project.
 
 ### Create a ```User``` model
 
-Type ```$ rails g model User first_name:string last_name:string age:integer``` into terminal.
+Create a new model in terminal.
+
+`rails g model User first_name:string last_name:string age:integer` 
+
+Migrate the database to create the ```User``` table.
+
+`rails generate model User first_name:string last_name:string`
 
 Open up the console by typing ```rails console``` or ```rails c```.
 
