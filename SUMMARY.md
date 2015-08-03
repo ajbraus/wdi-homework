@@ -6,7 +6,7 @@
 * [Intro to Rails](intro-to-rails.md)
 * [Rails Models, Resources & Templating](rails-templating.md)
 * [7 Things I Wish I Had Known About Rails](what-i-wish-i-knew-about-rails.md)
-* [SQL and Active Record](sql-and-active-record.md)
+* [Auth in Rails](auth-rails.md)
 * [Rails Asset Pipeline](asset-pipeline.md)
 * [How To...](/how_to/README.md)
   * [Name Variables](/how_to/name-variables.md)
