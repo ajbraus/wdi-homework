@@ -9,5 +9,5 @@
 * [SQL and Active Record](sql-and-active-record.md)
 * [Rails Asset Pipeline](asset-pipeline.md)
 * [How To...](/how_to/README.md)
-  * [Start a Project](/how_to/start-a-new-project.md)
+  * [Start a Project](/how_to/start-a-project.md)
   * [Outside-In Development and Anti-Patterns](/how_to/outside-in-dev.md)
