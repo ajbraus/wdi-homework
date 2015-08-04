@@ -26,20 +26,17 @@ or
 
 > What are all the animals whose owners live in 94115 zipcode?
 
-You can accomplish this through using the rails Active Record method `joins`. In SQL we create associations through join tables. Rails abstracts away from the literal join into a simple method.
-
-To get all or a subset of categories and their articles out of the database you would have to perform a join in SQL.
-
-```sql
-SELECT categories.* FROM categories
-  INNER JOIN articles ON articles.category_id = categories.id
-```
-
-But in Rails you can simply call `joins`. Say you wanted to return all categories for whom new articles had been created in the past 24 hours.
+You can accomplish this through using the rails Active Record method `joins`. Say you wanted to return all categories for whom new articles had been created in the past 24 hours.
 
 ```ruby
 time_range = (Time.now.midnight - 1.day)..Time.now.midnight
 Category.joins(:articles).where(articles: { created_at: time_rage })
+```
+
+or all animals whose owners live in 94115 zip-code
+
+```ruby
+Animal.joins(:owner).where(owner: { zip_code: 94115 })
 ```
 
 The same can be done for join two associations. Say you want all articles with a particular category that have comments added the past 24 hours.
@@ -64,7 +61,7 @@ Client.includes(:address).limit(10)
 
 ## Scopes
 
-More of an FYI, rails lets you create "scopes" of different models for ease of access. Careful with scopes because they can be a bit inflexible. 
+More of an FYI, rails lets you create "scopes" of different models for ease of access. Careful with scopes because they can be a bit inflexible.
 
 ```
 class Article < ActiveRecord::Base
