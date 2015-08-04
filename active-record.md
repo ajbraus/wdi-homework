@@ -98,7 +98,7 @@ Create a new model in terminal.
 
 Migrate the database to create the ```User``` table.
 
-`rails generate model User first_name:string last_name:string`
+`rake db:migrate`
 
 Open up the console by typing ```rails console``` or ```rails c```.
 
