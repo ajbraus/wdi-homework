@@ -8,6 +8,50 @@ To authenticate our users we typically ask them for a **password** we can associ
 
 Our library of choice for password obfuscation is called `BCrypt`. This will be added to our gemfile for authentication setup later. In Rails, the convention is to push more logic into our models, so it shouldn't come as a surprise that authentication setup will happen in the **user model.**
 
+## Creating a Secure Password
+
+We can "roll-our-own" authentication system with BCrypt by adding instance and class methods to our `User` model. The methods below handle creating a user with a secure password and authenticating a user:
+
+```ruby
+#
+# app/models/user.rb
+#
+class User < ActiveRecord::Base
+  BCrypt::Engine.cost = 12
+
+  validates :email, :password_digest, presence: true
+  validates_confirmation_of :password
+
+  def authenticate(unencrypted_password)
+    secure_password = BCrypt::Password.new(self.password_digest)
+    if secure_password == unencrypted_password
+      self
+    else
+      false
+    end
+  end
+
+  def password=(unencrypted_password)
+    #raise scope of password to instance
+    @password = unencrypted_password
+    self.password_digest = BCrypt::Password.create(@password)
+  end
+
+  def password
+    #get password, equivalent to `attr_reader :password`
+    @password
+  end
+
+  def self.confirm(email_param, password_param)
+    user = User.find_by_email(email_param)
+    user.authenticate(password_param)
+  end
+
+end
+```
+
+Rather than rolling our own auth, we can take a more concise, "rails-y" approach with <a href="" target="_blank">`has_secure_password`</a>, which adds authentication methods for us.
+
 ## Sessions
 
 > From [Rails Guides - Sessions](http://guides.rubyonrails.org/security.html#what-are-sessions-questionmark)
