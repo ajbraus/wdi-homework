@@ -10,6 +10,7 @@
 * [Advanced Active Record](advanced-active-record.md)
 * [Auth in Rails](auth-rails.md)
 * [Rails Asset Pipeline](asset-pipeline.md)
+* [Partials](partials.md)
 * [How To...](/how_to/README.md)
   * [Name Variables](/how_to/name-variables.md)
   * [Start a Project](/how_to/start-a-project.md)
