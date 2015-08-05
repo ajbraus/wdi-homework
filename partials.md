@@ -4,7 +4,7 @@
 
  Simply put, partials allow users to create sub-templates or sub-views in a separate file that you can load into different parts of the application.
 
- ##Form Templates
+ ## Form Templates
 
  A common example of using a 'partials' is making a partial for the form section of the new and edit templates.  
 
