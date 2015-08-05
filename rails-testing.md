@@ -62,7 +62,7 @@ For Rails apps, we'll emphasize **Test Driven Development**. We'll start by maki
 
 ### Four Phase Tests
 
-As we practice TDD, we'll focus on a four-phase testing methodology. Each test should *set up* some scenario, run an *excersize* starting from that schenario, *verify* that the intended effect happened, and *tear down* any changes that were made for the purpose of the test.
+As we practice TDD, we'll focus on a four-phase testing methodology. Each test should *set up* some scenario, run an *exercise* starting from that schenario, *verify* that the intended effect happened, and *tear down* any changes that were made for the purpose of the test.
 
 ### Testing Tips
 
@@ -72,7 +72,7 @@ As we practice TDD, we'll focus on a four-phase testing methodology. Each test s
 
 ## Testing Rails Applications
 
-Though Rails has built-in tools for testing, Rails developers often use `rspec-rails`, `capybara`, and `Factory Girl` instead of those default tools.  Read the first 6 sections (down to and including "Factory Girl") of this [thoughtbot post about rails testing](https://thoughtbot.com/) that goes over these tools.
+Though Rails has built-in tools for testing, Rails developers often use `rspec-rails`, `capybara`, and `Factory Girl` instead of those default tools.  Read the first 6 sections (down to and including "Factory Girl") of this [thoughtbot post about rails testing](https://robots.thoughtbot.com/how-we-test-rails-applications) that goes over these tools.
 
 ## Reflection Questions
 
