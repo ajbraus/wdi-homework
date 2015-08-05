@@ -1,4 +1,4 @@
-# Partials!
+# Partials
 
  There are many occasions where a developer may be using the same snippet of html over and over again in their views.  While not always avoidable, it is important to keep your code D.R.Y (Don't Repeat Yourself) while building an application.  Rails provides developers with a nifty concept called 'Partials' to make sub-templates to dry up the views.
 
