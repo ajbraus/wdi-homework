@@ -1,12 +1,10 @@
 #Partials!
 
- There are many occasions where a developer may be using the same code in multiple locations throughout an application.  While not always avoidable, it is important to keep your code D.R.Y (Don't Repeat Yourself) while building and application.  Rails provides developers with a nifty concept called 'Partials'.  
+ There are many occasions where a developer may be using the same snippet of html over and over again in their views.  While not always avoidable, it is important to keep your code D.R.Y (Don't Repeat Yourself) while building an application.  Rails provides developers with a nifty concept called 'Partials' to make sub-templates to dry up the views.
 
- Simply put, partials allow users to store code that will be reused into a separate file and then call upon that file in different parts of the application.
+ Simply put, partials allow users to create sub-templates or sub-views in a separate file that you can load into different parts of the application.
 
- A common example of using a 'partials' is when reusing an input field for a blog.  
-
- Let's say that you have an new input field for a blog:
+ A common example of using a 'partials' is making a partial for the form section of the new and edit templates.  
 
  **new.html.erb**
  ```
