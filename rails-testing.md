@@ -50,7 +50,7 @@ For the first part of the course, we used a relaxed version of **Behavior Driven
 
 We've also talked about **Error Driven Development** (EDD), using error messages as clues to help us build out a project. This is more feasible with tools like Rails that give us good error messages.  Error messages are used often, but EDD is not considered as effective a form of development as BDD or TDD.
 
-For Rails apps, we'll emphasize **Test Driven Development**. We'll start by making a few goals for an app's behavoir.  Then, we'll write tests that can check whether we've met those goals... before we start to code! Finally, we'll write code we hope enables each behavior and check whether our code passes the test.   TDD tries to ensure that you understand the problem before coding a solution. It's also meant to keep programmers on track. If you write tests firsts, you're less likely to forget an important functionality.  As another benefit, TDD works well with pair programming.  You can "ping pong" the tests, having one per write them and another person write the code to pass them.
+For Rails apps, we'll emphasize **Test Driven Development**. We'll start by making a few goals for an app's behavoir.  Then, we'll write tests that can check whether we've met those goals... before we start to code! Finally, we'll write code we hope enables each behavior and check whether our code passes the test.   TDD tries to ensure that you understand the problem before coding a solution. It's also meant to keep programmers on track. If you write tests firsts, you're less likely to forget an important functionality.  As another benefit, TDD works well with pair programming.  You can "ping pong" the tests, having one person write them and another person write the code to pass them.
 
 
 ### Types of Tests
@@ -62,7 +62,7 @@ For Rails apps, we'll emphasize **Test Driven Development**. We'll start by maki
 
 ### Four Phase Tests
 
-As we practice TDD, we'll focus on a four-phase testing methodology. Each test should *set up* some scenario, run an *exercise* starting from that schenario, *verify* that the intended effect happened, and *tear down* any changes that were made for the purpose of the test.
+As we practice TDD, we'll focus on a four-phase testing methodology. Each test should *set up* some scenario, run an *exercise* starting from that scenario, *verify* that the intended effect happened, and *tear down* any changes that were made for the purpose of the test.
 
 ### Testing Tips
 
