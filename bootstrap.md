@@ -1,7 +1,5 @@
 # Bootstrap
 
-What it is
-
 ## Key Questions
 
 ## UX & UI

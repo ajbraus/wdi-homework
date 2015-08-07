@@ -1,4 +1,5 @@
-# HTML/CSS Review, UX & Bootstrap
+# Bootstrap Challenges
+
 | Objectives |
 | :--- |
 | Explain why UX is important as a developer |

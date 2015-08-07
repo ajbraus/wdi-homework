@@ -2,9 +2,29 @@
 * [What Is The Internet](what-is-the-internet.md)
 * [Bootstrap](bootstrap.md)
   * [Challenges](bootstrap-challenges.md)
-  * [Challenges](bootstrap-solutions.md)
+  * [Solutions](bootstrap-solutions.md)
+* [Data Types in JavaScript](data-types.md)
+  * [Challenges](data-types-challenges.md)
+  <!-- * [Solutions](data-types-solutions.md) TODO -->
+* [JS Control Flow]()
+* [JS Functions]()
+* [DOM & Vanilla JS]()
 * [jQuery](jquery.md)
   * [Challenges](jquery-challenges.md)
+* [JS Constructors]
+* [Underscore Templating]
+* [Bootstrap JS]
+* [Object Oriented Programming]
+* [Prototype Inheritance]
+* [Project Planning]
+* [APIs]
+* [ExpressJS]
+* [Testing]
+* [Mongo]
+* [Mongoose]
+* [NoSQL Associations]
+* [Sessions, Cookies, Tokens]
+* [Authentication & Authorization]
 * [Intro to Ruby](intro-to-ruby.md)
 * [Ruby OOP](ruby-oop.md)
 * [Intro to Rails](intro-to-rails.md)
@@ -17,16 +37,22 @@
 * [Partials](partials.md)
 * [Testing Rails Apps](rails-testing.md)
 * [How To...](/how_to/README.md)
+  * [Make a Pull Request](/how_to/express_project_setup.md)
   * [Get Help](/how_to/how_to_get_help.md)
   * [Start a Project](/how_to/start-a-project.md)
   * [Move Fast](/how_to/outside-in-dev.md)
   * [Name Variables](/how_to/name-variables.md)
   * [Setup Express](/how_to/express_project_setup.md)
   * [Setup Heroku Node & Mongo](/how_to/heroku_node_mongo.md)
+  * [Hiding API Keys]()
 * [Interview Prep](/interview_prep/README.md)
   * [Big 0](/interview_prep/big-0.md)
+  * [Iterators](/interview_prep/iterators.md)
+    * [Solutions](/interview_prep/iterators-solutions.md)
+  * [Iterators2](/interview_prep/iterators2.md)
   * [Merge Sort](/interview_prep/merge-sort.md)
   * [Bubble Sort](/interview_prep/bubble-sort.md)
   * [Regex](/interview_prep/regex.md)
+    * [Solutions](/interview_prep/regex-solutions.md)
   * [Stacks and Queues](/interview_prep/stacks_and_queues.md)
   * [Stacks](/interview_prep/stacks.md)

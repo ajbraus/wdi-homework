@@ -1,3 +1,5 @@
+#  Bootstrap Solutions
+
 ## Challenges
 1. Create an `index.html` file and add the [Bootstrap CDN](http://getbootstrap.com/getting-started/#download) (or use the boilerplate template below) to get started
 
