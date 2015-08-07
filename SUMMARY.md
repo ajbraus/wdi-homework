@@ -11,6 +11,8 @@
 * [Advanced Active Record](advanced-active-record.md)
 * [Auth in Rails](auth-rails.md)
 * [Rails Asset Pipeline](asset-pipeline.md)
+* [Partials](partials.md)
+* [Testing Rails Apps](rails-testing.md)
 * [How To...](/how_to/README.md)
   * [Get Help](/how_to/how_to_get_help.md)
   * [Start a Project](/how_to/start-a-project.md)
