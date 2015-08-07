@@ -1,4 +1,4 @@
-#DOM & jQuery
+# jQuery Challenges
 
 | Objectives |
 | :--- |
@@ -6,10 +6,6 @@
 | Use the JS library "jQuery" to select and manipulate DOM elements. |
 | Describe an explain the importance and risks of using external libraries to accelerate coding. |
 | Pair program. |
-
-#BUT FIRST!
-
-Read this [Comparison of jQuery and Vanilla JS](http://bl.ocks.org/joyrexus/5322252) (5 min)
 
 ### Motivation (Why?)
 

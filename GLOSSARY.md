@@ -1,20 +1,18 @@
-# Words For Practice
-## Articulating Tech
+# Glossary
 
-
-## Vocab
-
-####Week 1
-* Git
+# Git
+A service for versioning and sharing code.
   * `git clone`
   * `git push`
   * `git pull`
-  * `git add` 
+  * `git add`
   * `git commit`
-* GitHub
+# GitHub
+A website that uses git to share code over the internet publically and privately.
+
 * Shell (Computing)
 * command line interface
-* G.U.I. 
+* G.U.I.
 * bash
 * Rubber Duck Debugging
 * UNIX

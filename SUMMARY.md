@@ -1,6 +1,6 @@
 # Summary
 * [What Is The Internet](what-is-the-internet.md)
-* Bootstrap
+* [Bootstrap](bootstrap.md)
   * [Challenges](bootstrap-challenges.md)
 * [jQuery](jquery.md)
   * [Challenges](jquery-challenges.md)
