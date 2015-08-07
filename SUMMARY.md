@@ -2,6 +2,7 @@
 * [What Is The Internet](what-is-the-internet.md)
 * [Bootstrap](bootstrap.md)
   * [Challenges](bootstrap-challenges.md)
+  * [Challenges](bootstrap-solutions.md)
 * [jQuery](jquery.md)
   * [Challenges](jquery-challenges.md)
 * [Intro to Ruby](intro-to-ruby.md)

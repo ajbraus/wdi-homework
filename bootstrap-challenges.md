@@ -8,7 +8,12 @@
 ## Challenges
   1. Create an `index.html` file and add the [Bootstrap CDN](http://getbootstrap.com/getting-started/#download) (or use this [Bootstrap boilerplate](https://github.com/sf-wdi-19-20/modules/tree/master/w1_d2_2_bootstrap_css/bootstrap_boilerplate) to get started)
   2. Add one `.container`, one `.row`, and three `.col-*` classes (your columns can be any widths that add up to 12)
-  3. Make sure your three columns stack vertically when you are on mobile (`xs`) devices. (**Hint:** Your column class names will NOT contain `xs`)
+  3. Make these girds
+
+  | Mobile (xs) | Tablet (sm) | Laptop (md) | Desktop (lg) |
+  |:-- | :-- |:-- | :-- |:-- |
+  | 12/12 | 4/8 | 4/8 | 3/7 (offset-1) |
+  
   4. Add content to your columns (`<h1>`, `<p>`, `<img>`, etc.)
   5. Add some [buttons](http://getbootstrap.com/css/#buttons) (you can even put [icons](http://getbootstrap.com/components/#glyphicons) inside!)
 
