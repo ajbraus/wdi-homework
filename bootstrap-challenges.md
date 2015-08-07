@@ -6,16 +6,20 @@
 | Add the Bootstrap library to your projects |
 
 ## Challenges
-  1. Create an `index.html` file and add the [Bootstrap CDN](http://getbootstrap.com/getting-started/#download) (or use this [Bootstrap boilerplate](https://github.com/sf-wdi-19-20/modules/tree/master/w1_d2_2_bootstrap_css/bootstrap_boilerplate) to get started)
-  2. Add one `.container`, one `.row`, and three `.col-*` classes (your columns can be any widths that add up to 12)
-  3. Make these girds
-
-  | Mobile (xs) | Tablet (sm) | Laptop (md) | Desktop (lg) |
-  |:-- | :-- |:-- | :-- |:-- |
-  | 12/12 | 4/8 | 4/8 | 3/7 (offset-1) |
-  
-  4. Add content to your columns (`<h1>`, `<p>`, `<img>`, etc.)
-  5. Add some [buttons](http://getbootstrap.com/css/#buttons) (you can even put [icons](http://getbootstrap.com/components/#glyphicons) inside!)
+1. Create an `index.html` file and add the [Bootstrap CDN](http://getbootstrap.com/getting-started/#download) (or use this [Bootstrap boilerplate](https://github.com/sf-wdi-19-20/modules/tree/master/w1_d2_2_bootstrap_css/bootstrap_boilerplate) to get started)
+2. Add one `.container`, one `.row`, and three `.col-*` classes (your columns can be any widths that add up to 12)
+3. Make these girds
+  * Mobile (xs) - 12/12
+  * Tablet (sm) - 4/8
+  * Laptop (md) - 4/8
+  * Desktop (lg) - 3/7 (offset-1)
+3. Make these girds
+  * Mobile (xs) - 3/9
+  * Tablet (sm) - 4/8
+  * Laptop (md) - 5/7
+  * Desktop (lg) - 5/5 (offset-1)
+4. Add content to your columns (`<h1>`, `<p>`, `<img>`, etc.)
+5. Add some [buttons](http://getbootstrap.com/css/#buttons) (you can even put [icons](http://getbootstrap.com/components/#glyphicons) inside!)
 
 ## Stretch Challenges
   1. Add a [nav bar](http://getbootstrap.com/components/#navbar) to the top of your page.

@@ -69,7 +69,12 @@
     </div>
   ...
   ```
-
+3. Make these girds
+  * Mobile (xs) - 3/9
+  * Tablet (sm) - 4/8
+  * Laptop (md) - 5/7
+  * Desktop (lg) - 5/5 (offset-1)
+  
 4. Add content to your columns (`<h1>`, `<p>`, `<img>`, etc.)
 5. Add some [buttons](http://getbootstrap.com/css/#buttons) (you can even put [icons](http://getbootstrap.com/components/#glyphicons) inside!)
 
