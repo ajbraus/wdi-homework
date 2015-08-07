@@ -1,5 +1,7 @@
 # Summary
 * [What Is The Internet](what-is-the-internet.md)
+* Bootstrap
+  * [Challenges](bootstrap-challenges.md)
 * [jQuery](jquery.md)
   * [Challenges](jquery-challenges.md)
 * [Intro to Ruby](intro-to-ruby.md)
