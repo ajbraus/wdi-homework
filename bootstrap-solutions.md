@@ -52,10 +52,10 @@
   ...
   ```
 3. Make these girds
-
-| Mobile (xs) | Tablet (sm) | Laptop (md) | Desktop (lg) |
-|:-- | :-- |:-- | :-- |:-- |
-| 12/12 | 4/8 | 4/8 | 3/7 (offset-1) |
+  * Mobile (xs) - 12/12
+  * Tablet (sm) - 4/8
+  * Laptop (md) - 4/8
+  * Desktop (lg) - 3/7 (offset-1)
 
   ```html
   ...
@@ -74,9 +74,20 @@
   * Tablet (sm) - 4/8
   * Laptop (md) - 5/7
   * Desktop (lg) - 5/5 (offset-1)
-  
-4. Add content to your columns (`<h1>`, `<p>`, `<img>`, etc.)
-5. Add some [buttons](http://getbootstrap.com/css/#buttons) (you can even put [icons](http://getbootstrap.com/components/#glyphicons) inside!)
+
+  ```html
+  ...
+    <div class="col-xs-3 col-sm-4 col-md-5 col-lg-5 col-lg-offset-1">
+      <h1>col-sm-4</h1>
+      <p>These columns take up 1/3 the page and the whole page on small devices.</p>
+    </div>
+    <div class="col-xs-9 col-sm-8 col-sm-7 col-lg-5">
+      <h1>col-sm-4</h1>
+      <p>These columns take up 1/3 the page and the whole page on small devices.</p>
+    </div>
+  ...
+  ```
+4. Add some [buttons](http://getbootstrap.com/css/#buttons) (you can even put [icons](http://getbootstrap.com/components/#glyphicons) inside!)
 
 ## Stretch Challenges
 1. Add a [nav bar](http://getbootstrap.com/components/#navbar) to the top of your page.

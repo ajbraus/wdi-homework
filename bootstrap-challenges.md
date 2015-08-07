@@ -18,13 +18,12 @@
   * Tablet (sm) - 4/8
   * Laptop (md) - 5/7
   * Desktop (lg) - 5/5 (offset-1)
-4. Add content to your columns (`<h1>`, `<p>`, `<img>`, etc.)
-5. Add some [buttons](http://getbootstrap.com/css/#buttons) (you can even put [icons](http://getbootstrap.com/components/#glyphicons) inside!)
+4. Add some [buttons](http://getbootstrap.com/css/#buttons) (you can even put [icons](http://getbootstrap.com/components/#glyphicons) inside!)
 
 ## Stretch Challenges
-  1. Add a [nav bar](http://getbootstrap.com/components/#navbar) to the top of your page.
-  2. Add a [form](http://getbootstrap.com/css/#forms) to your page.
-  3. Visit [Bootsnipp](http://bootsnipp.com), and choose any element(s) from the gallery to add to your page. (**Hint:** You will have to add your own stylesheet if any extra CSS is required for the element(s) you choose)
+1. Add a [nav bar](http://getbootstrap.com/components/#navbar) to the top of your page.
+2. Add a [form](http://getbootstrap.com/css/#forms) to your page.
+3. Visit [Bootsnipp](http://bootsnipp.com), and choose any element(s) from the gallery to add to your page. (**Hint:** You will have to add your own stylesheet if any extra CSS is required for the element(s) you choose)
 
 ## Further Reading
 
