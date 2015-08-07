@@ -1,5 +1,6 @@
 # Summary
 * [What Is The Internet](what-is-the-internet.md)
+  * [Challenges](what-is-the-internet-challenges.md)
 * [Bootstrap](bootstrap.md)
   * [Challenges](bootstrap-challenges.md)
   * [Solutions](bootstrap-solutions.md)
