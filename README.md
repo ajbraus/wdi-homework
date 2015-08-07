@@ -20,14 +20,6 @@
 
 ## Week 1
 
-Monday
-	*
-Tuesday
- 	*
-Wednesday
-Thursday
-Friday
-
 |  | Monday | Tuesday | Wednesday | Thursday | Friday |
 | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
 | **Interview Prep** |  |  |  | [Intro Functions](https://github.com/sf-wdi-19-20/modules/tree/master/w1_d4_0_intro_functions) |  |
@@ -58,20 +50,54 @@ Friday
 
 ## Week 4
 
+|  | Monday | Tuesday | Wednesday | Thursday | Friday |
+| :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
+| **Interview Prep** | Vocab Building | <a href="https://github.com/sf-wdi-19-20/modules/tree/master/w4_d2_0_bubble_sort" target="_blank">Bubble Sort</a> | <a href="https://github.com/sf-wdi-19-20/modules/tree/master/w4_d3_0_iterators" target="_blank">Iterators</a> | <a href="https://github.com/sf-wdi-19-20/modules/tree/master/w4_d4_0_iterators2" target="_blank">Iterators II</a> | 1:1 Project Meetings |
+| **Module 1** | <a href="https://github.com/sf-wdi-19-20/modules/tree/master/w4_d1_1_intro_to_mongo" target="_blank">MongoDB & Mongoose</a> | <a href="https://github.com/sf-wdi-19-20/modules/tree/master/w4_d2_1_mongo_relationships" target="_blank">Mongo Relationships</a> | <a href="https://github.com/sf-wdi-19-20/modules/tree/master/w4_d3_1_auth_bcrypt" target="_blank">Auth with Bcrypt</a> | Review | Review |
+| **Module 2** | <a href="https://github.com/sf-wdi-19-20/modules/tree/master/w4_d1_2_mongo_mongoose_continued" target="_blank">Mongo & Mongoose Continued</a> | <a href="https://github.com/sf-wdi-19-20/modules/tree/master/w4_d2_2_auth" target="_blank">Intro Auth</a> | Review | Review // Project 1 Intro | Project 1 |
+| **Homework** | <a href="https://github.com/sf-wdi-19-20/modules/tree/master/w4_d1_2_mongo_mongoose_continued#challenges--tonights-homework" target="_blank">Add Mongo/Mongoose to Project 0</a> | <a href="https://github.com/sf-wdi-19-20/modules/tree/master/w4_d2_3_relationship_lab" target="_blank">Mongoose Relationships</a> | <a href="https://github.com/sf-wdi-19-20/modules/tree/master/w4_d3_3_auth_lab" target="_blank">Auth Lab</a> | Make Project 1 Plan | Project 1 |
+| **Evening Readings** | <a href="http://docs.mongodb.org/manual/applications/data-models-relationships" target="_blank">Mongo Docs</a> (*1) | <a href="https://crackstation.net/hashing-security.htm" target="_blank">Salted Password Hashing</a> (*2) |  |  |  |
+
+1. Read these sections: "Model One-to-One Relationships with Embedded Documents", "Model One-to-Many Relationships with Embedded Documents", "Model One-to-Many Relationships with Document References"
+
+2. Read these sections: "What is password hashing?", "How Hashes are Cracked", "Adding Salt"
+
 
 ## Week 5
 
-Monday - lessons
-Tuesday - lessons
-Project 1 - Front End Project
+|  | Monday | Tuesday | Wednesday | Thursday | Friday |
+| :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
+| **Interview Prep** | Project 1 | Project 1 | Project 1 | Project 1 | Project 1 Presentations |
+| **Module 1** | Project 1 | Project 1  | Project 1  | Project 1  | Project 1 Presentations |
+| **Module 2** | <a href="https://github.com/sf-wdi-19-20/modules/blob/master/how_tos/heroku_node_mongo.md" target="_blank">Pushing to Heroku</a> | Project 1 | <a href="https://github.com/sf-wdi-19-20/modules/tree/master/w5_d3_2_hidding_api_keys" target="_blank">Hiding ENV Variables</a> | Project 1 | Project 1 Presentations |
+| **Homework** | Project 1 | Project 1 | Project 1 | Project 1 |  |
+| **Evening Readings** |  |  |  |  |  |
+
+**Note:** Stand-up groups will meet EVERY morning this week at 9:17am SHARP!!
+
+**Reminder:** <a href="https://github.com/sf-wdi-19-20/w5_project_1" target="\_blank">Project 1 Requirements</a>
 
 ## Week 6
 
-Monday - Project 1
-Tuesday - Project 1
-
+|  | Monday | Tuesday | Wednesday | Thursday | Friday |
+| :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
+| **Interview Prep** | Find Most Common Word in String | <a href="https://github.com/sf-wdi-19-20/modules/tree/master/w6_d2_0_regex" target="_blank">Regex</a> | <a href="https://github.com/sf-wdi-19-20/modules/tree/master/w6_d3_0_stacks_and_queues" target="_blank">Concepts: Stacks & Queues</a> | [Stacks](https://github.com/sf-wdi-19-20/modules/tree/master/w6_d4_0_stacks) | [Queues](https://gist.github.com/DelmerGA/19779b3d5b539458fc93) |
+| **Module 1** | <a href="https://github.com/sf-wdi-19-20/modules/tree/master/w6_d1_1_pull_request_project" target="_blank">Project Pairing</a> | <a href="https://github.com/sf-wdi-19-20/modules/tree/master/w6_d2_1_intro_ruby" target="_blank">Intro to Ruby</a> | <a href="https://github.com/sf-wdi-19-20/modules/tree/master/w6_d3_1_ruby_oop" target="_blank">Ruby OOP</a> | [Intro Rails Resources](https://github.com/sf-wdi-19-20/modules/tree/master/w6_d4_1_rails_resources) | Review |
+| **Module 2** | <a href="https://github.com/sf-wdi-19-20/modules/tree/master/w6_d1_1_pull_request_project" target="_blank">Project Pairing Continued</a> | <a href="https://github.com/sf-wdi-19-20/modules/tree/master/w6_d2_2_ruby_methods">Ruby Methods</a> | <a href="https://github.com/sf-wdi-19-20/modules/tree/master/w6_d3_2_intro_to_rails" target="_blank">Intro Rails</a> | [Rails Resources Continued](https://github.com/sf-wdi-19-20/modules/tree/master/w6_d4_2_rails_resources_continued) |  |
+| **Evening Homework** | <a href="http://ajbraus.gitbooks.io/wdi-evening-readings/content/week6/00-intro-to-ruby.html" target="_blank">Intro to Ruby</a> | <a href="https://github.com/sf-wdi-19-20/modules/blob/master/w6_d2_3_prep_lab/README.md" target="_blank">Prepare for tomorrow!</a> | **REQUIRED:** <a href="https://github.com/sf-wdi-19-20/modules/tree/master/w6_d3_3_rails_resources_reading" target="_blank">Intro to Rails Resources</a> // Optional: <a href="http://ajbraus.gitbooks.io/wdi-homework/content/week6/02-rails-templating.html" target="_blank">Rails Resources, Models, Templating</a> | Reading: [7 Things I Wish I Knew About Rails](http://ajbraus.gitbooks.io/wdi-homework/content/65-what-i-wish-i-knew.html) & explore [Rails Guides](http://guides.rubyonrails.org/)  -- [Homework Writeup](https://github.com/sf-wdi-19-20/modules/tree/master/w6_d4_3_readings_on_rails) | see [Weekend Lab Writeup](https://github.com/sf-wdi-19-20/modules/tree/master/w6_weekend_lab) |
 
 ## Week 7
+
+|  | Monday | Tuesday | Wednesday | Thursday | Friday |
+| :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
+| **Interview Prep** | [Intro Trees](https://github.com/sf-wdi-19-20/modules/tree/master/w7_d1_0_intro_trees) | Build a Tree with OOP | Depth First Search | Breadth First Search |  |
+| **Module 1** | [RDBs &  SQL intro](https://github.com/sf-wdi-19-20/modules/tree/master/w7_d1_1_SQL_intro) | Active Record Queries & Validations | Authentication: Signup | Rails Asset Pipeline | Review |
+| **Module 2** | [SQL continued: Joins](https://github.com/sf-wdi-19-20/modules/tree/master/w7_d1_2_sql_continued) | Active Record Associations | Authentication: Login/Logout | Testing |  |
+| **Evening Homework** | read/try [Active Record](http://ajbraus.gitbooks.io/wdi-homework/content/active-record.html), and  continue [Apartment Lab](https://github.com/sf-wdi-19-20/w7_apartment_lab_sql) |  |  |  |
+
+
+***Please submit [this form](https://docs.google.com/a/generalassemb.ly/forms/d/1zSklHtCYKg_NhkLdjlQaCXFrHJQ4Io266cKUs9_Dg8I/viewform) after you are done with evening homework activities (challenges/labs/readings/tutorials).***
+
 
 ## Week 8
 
