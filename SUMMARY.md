@@ -7,7 +7,11 @@
 * [Data Types in JavaScript](data-types.md)
   * [Challenges](data-types-challenges.md)
   <!-- * [Solutions](data-types-solutions.md) TODO -->
-* [JS Control Flow]()
+* [JS Control Flow](js-control-flow.md)
+  * [Challenges](js-control-flow-challenges.md)
+  * [Solutions](js-control-flow-solutions.md)
+  * [Lab](js-control-flow-lab.md)
+  * [Lab Solution](js-control-flow-lab-solutions.md)
 * [JS Functions]()
 * [DOM & Vanilla JS]()
 * [jQuery](jquery.md)
