@@ -1,7 +1,7 @@
 # Summary
 * [What Is The Internet](what-is-the-internet.md)
-  * [Challenges](what-is-the-internet-challenges.md)
 * [jQuery](jquery.md)
+  * [Challenges](jquery-challenges.md)
 * [Intro to Ruby](intro-to-ruby.md)
 * [Ruby OOP](ruby-oop.md)
 * [Intro to Rails](intro-to-rails.md)
