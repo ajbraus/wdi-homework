@@ -1,10 +1,12 @@
 # WDI Schedule & Syllabus
 
+Please submit [this form](https://docs.google.com/a/generalassemb.ly/forms/d/1zSklHtCYKg_NhkLdjlQaCXFrHJQ4Io266cKUs9_Dg8I/viewform) after you are done with evening homework activities (challenges/labs/readings/tutorials).
+
 <!-- ## Week By Week
 
     Front End
       Week 1 - Web, Browser & Javascript Fundamentals
-      Week 2 - Underscore, jQuery - weekend project 0
+      Week 2 - Handlebars, jQuery - weekend project 0
       Week 3 - APIs & AngularJS
       Week 4 - AngularJS, APIs, Firebase
       Week 5 - Project 1 (Angular Front End Project)
@@ -16,7 +18,10 @@
       Week 10 - Rails & Project 3 Rails Project
     Final Project
       Week 11 - Project 3 & Review & Project 4
-      Week 12 - Project 4 -->
+      Week 12 - Project 4
+
+      AWS not Heroku
+-->
 
 ## Week 1
 
@@ -94,10 +99,6 @@
 | **Module 1** | [RDBs &  SQL intro](https://github.com/sf-wdi-19-20/modules/tree/master/w7_d1_1_SQL_intro) | Active Record Queries & Validations | Authentication: Signup | Rails Asset Pipeline | Review |
 | **Module 2** | [SQL continued: Joins](https://github.com/sf-wdi-19-20/modules/tree/master/w7_d1_2_sql_continued) | Active Record Associations | Authentication: Login/Logout | Testing |  |
 | **Evening Homework** | read/try [Active Record](http://ajbraus.gitbooks.io/wdi-homework/content/active-record.html), and  continue [Apartment Lab](https://github.com/sf-wdi-19-20/w7_apartment_lab_sql) |  |  |  |
-
-
-***Please submit [this form](https://docs.google.com/a/generalassemb.ly/forms/d/1zSklHtCYKg_NhkLdjlQaCXFrHJQ4Io266cKUs9_Dg8I/viewform) after you are done with evening homework activities (challenges/labs/readings/tutorials).***
-
 
 ## Week 8
 
