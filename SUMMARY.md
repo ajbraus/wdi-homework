@@ -31,6 +31,8 @@
 * [Sessions, Cookies, Tokens]()
 * [Authentication & Authorization]()
 * [Intro to Ruby](intro-to-ruby.md)
+  * [Challenges](intro-to-ruby-challenges.md)
+  * [Solutions](intro-to-ruby-solutions.md)
 * [Ruby OOP](ruby-oop.md)
 * [Intro to Rails](intro-to-rails.md)
 * [Rails Models, Resources & Templating](rails-templating.md)

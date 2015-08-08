@@ -152,8 +152,12 @@ people.inject(0) { |sum, n| sum + n[:age] } #=> 152
 
 ```
 
+## How to run a ruby script inside a file
+1. ```$ touch script.rb```
+2. ```$ sublime script.rb```
+3. ```$ ruby script.rb```
+4. THAT'S IT!
+5. From irb you can run a ruby file by loading it ```$ load './filename.rb'```
 
-
-## Challenges
 
 [Ruby Tutorial: Try Ruby](http://tryruby.org/)
