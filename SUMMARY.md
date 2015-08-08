@@ -42,6 +42,7 @@
 * [Partials](partials.md)
 * [Testing Rails Apps](rails-testing.md)
 * [How To...](/how_to/README.md)
+  * [Keyboard Shortcuts](/how_to/keyboard-shortcuts.md)
   * [Make a Pull Request](/how_to/express_project_setup.md)
   * [Get Help](/how_to/how_to_get_help.md)
   * [Web Tutorials](/how_to/web-tutorials.md)
