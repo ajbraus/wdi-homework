@@ -44,6 +44,7 @@
 * [How To...](/how_to/README.md)
   * [Make a Pull Request](/how_to/express_project_setup.md)
   * [Get Help](/how_to/how_to_get_help.md)
+  * [Web Tutorials](/how_to/web-tutorials.md)
   * [Start a Project](/how_to/start-a-project.md)
   * [Move Fast](/how_to/outside-in-dev.md)
   * [Name Variables](/how_to/name-variables.md)
