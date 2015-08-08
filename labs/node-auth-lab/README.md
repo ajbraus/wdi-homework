@@ -1,11 +1,11 @@
 # Authentication Lab
 
-**Objective:** Continue implementing your <a href="https://github.com/sf-wdi-19-20/modules/tree/master/w4_d3_1_auth_bcrypt" target="_blank">simple login app</a> from this morning's module.
+**Objective:** Continue implementing your [simple login app](https://github.com/sf-wdi-19-20/modules/tree/master/w4_d3_1_auth_bcrypt) from this morning's module.
 
 ## Workflow & Submission
 
 1. Create a new GitHub repo for your simple login app.
-2. Work through the <a href="https://github.com/sf-wdi-19-20/modules/tree/master/w4_d3_1_auth_bcrypt" target="_blank">challenges from the morning module</a> to implement your simple login app.
+2. Work through the [challenges from the morning module](https://github.com/sf-wdi-19-20/modules/tree/master/w4_d3_1_auth_bcrypt) to implement your simple login app.
 3. Submit the link to your GitHub repo in the <a href="https://docs.google.com/a/generalassemb.ly/forms/d/14rNXnDaq5X5Rvda-1BRZCl9YmkOoZzf7oxGBEZG_YJE/viewform" target="_blank">homework submission form</a>.
 
 ## Stretch Challenges / Bonus
