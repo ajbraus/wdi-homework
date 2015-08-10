@@ -18,6 +18,7 @@
 * [DOM & Vanilla JS]()
 * [jQuery](jquery.md)
   * [Challenges](jquery-challenges.md)
+  <!-- * [Solutions](jquery-solutions.md) TODO -->
 * [JS Constructors]()
 * [Client-Side Templating]()
 * [Bootstrap JS]()
