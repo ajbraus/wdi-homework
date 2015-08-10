@@ -46,8 +46,10 @@
 * [Rails Asset Pipeline](asset-pipeline.md)
 * [Partials](partials.md)
 * [Testing Rails Apps](rails-testing.md)
+
 * [How To...](/how_to/README.md)
   * [Keyboard Shortcuts](/how_to/keyboard-shortcuts.md)
+  * [Pair Program](/how_to/how_to_pair_program.md)
   * [Make a Pull Request](/how_to/express_project_setup.md)
   * [Get Help](/how_to/how_to_get_help.md)
   * [Web Tutorials](/how_to/web-tutorials.md)
@@ -57,6 +59,8 @@
   * [Setup Express](/how_to/express_project_setup.md)
   * [Setup Heroku Node & Mongo](/how_to/heroku_node_mongo.md)
   * [Hiding API Keys]()
+  * [Image Upload Rails](/how_to/rails-image-upload.md)
+
 * [Interview Prep](/interview_prep/README.md)
   * [Big 0](/interview_prep/big-0.md)
     * [Solutions](/interview_prep/big-0-solutions.md)
@@ -83,4 +87,8 @@
   * [Blog Lab](/labs/rails-blog-lab/README.md)
   * [Authentication in Rials Lab](/labs/rails-auth-lab/README.md)
   * [Pull Request Day](/labs/pull-request-day/README.md)
+
 * [Project 0](/probjects/project-0.md)
+* [Project 1](/probjects/project-1.md)
+* [Project 2](/probjects/project-2.md)
+* [Project 3](/probjects/project-3.md)

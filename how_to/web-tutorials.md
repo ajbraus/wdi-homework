@@ -6,6 +6,8 @@
 * [Rails for Zombies](http://railsforzombies.org/levels/1)
 
 JS
+[Intro to Express JS](https://egghead.io/series/getting-started-with-express-js)
+[Angular Basics](https://egghead.io/series/angularjs-app-from-scratch-getting-started)
 http://jsforcats.com/
 http://www.codecademy.com/  (Javascript, Angular, Ruby on Rails, Jquery, Python, PHP)
 http://nodeschool.io/#workshoppers (JavaScript, NodeJS)
