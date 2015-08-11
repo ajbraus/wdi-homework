@@ -81,6 +81,7 @@
     S3_PUBLIC_KEY=kafjlajdslfjalsdf
     S3_SECRET=ajsfkljaksldfjakljdflajdfljad
   ```
+> **Remember** to add your `.env` file to your `.gitignore`!
 
 1. Add the aws-sdk gem and path in paperclip
 
@@ -97,7 +98,7 @@
                     :default_url => "https://s3.amazonaws.com/<<BUCKET>>/defaults/default_avatar.png"
 
   def s3_credentials
-    {:bucket => ENV[:S3_BUCKET], :access_key_id => ENV[:S3_PUBLIC_KEY], :secret_access_key => ENV[:S3_SECRET]}
+    { :bucket => ENV['S3_BUCKET'], :access_key_id => ENV['S3_PUBLIC_KEY'], :secret_access_key => ENV['S3_SECRET'] }
   end
   ```
 1. Now it should work! Upload a file to see.
