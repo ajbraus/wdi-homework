@@ -39,4 +39,4 @@ becomes
 ```ruby
 Post.friendly.find(params[:id])
 ```
-1. Now it should work! Checkout out your URLs.
+1. Now it should work! Checkout out dem purrty URLs.
