@@ -60,6 +60,7 @@
   * [Setup Heroku Node & Mongo](/how_to/heroku_node_mongo.md)
   * [Hiding API Keys]()
   * [Image Upload Rails](/how_to/rails-image-upload.md)
+  * [Pretty URLs Rails](/how_to/rails-pretty-urls.md)
 
 * [Interview Prep](/interview_prep/README.md)
   * [Big 0](/interview_prep/big-0.md)
