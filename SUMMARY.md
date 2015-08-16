@@ -50,7 +50,7 @@
 * [How To...](/how_to/README.md)
   * [Keyboard Shortcuts](/how_to/keyboard-shortcuts.md)
   * [Pair Program](/how_to/how_to_pair_program.md)
-  * [Make a Pull Request](/how_to/express_project_setup.md)
+  * [Collaborate with Github](/how_to/collaborate-with-github.md)
   * [Get Help](/how_to/how_to_get_help.md)
   * [Web Tutorials](/how_to/web-tutorials.md)
   * [Start a Project](/how_to/start-a-project.md)
