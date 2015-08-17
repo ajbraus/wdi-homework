@@ -46,6 +46,8 @@
 * [Rails Asset Pipeline](asset-pipeline.md)
 * [Partials](partials.md)
 * [Testing Rails Apps](rails-testing.md)
+<!-- * [Intro to Angular](intro-to-angular.md) -->
+<!-- * [Challenges](intro-to-angular-challenges.md) -->
 
 * [How To...](/how_to/README.md)
   * [Keyboard Shortcuts](/how_to/keyboard-shortcuts.md)

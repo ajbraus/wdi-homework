@@ -38,3 +38,17 @@ Say you want to add some better test coverage to a wonderful and popular starter
 3. When you are satisfied push the branch to your origin/master (not the original project).
 4. Navigate your browser to the Github page of your remote. Github will recognize that this project is forked from another and ask if you would like to submit the `more-test-coverage` branch to the original project as a pull request. Say "oh yeah!"
 5. Whoever owns the repo for the starter express project will now receive an email saying that you submitted a pull request. They will be able to pull down your pull request branch to examine it.
+
+
+## Code Review
+
+To do merge reviews use Github's "Diff" functionality in the browser.
+
+## Resolving Merge Conflicts Locally
+
+1. Fetch the remote branch: `git fetch <<remote branch name>>`
+2. Checkout the new local branch: `git checkout <<branch name>>`
+3. Merge master into the local branch: `git merge master`
+4. Resolve conflicts.
+5. Push the branch to remote: `git push origin <<branch name>>`
+6. Now Github will be "happy" and the green button will be there to merge without conflicts.
