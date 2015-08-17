@@ -190,3 +190,11 @@ $ heroku config
 $ heroku config:unset MY_API_KEY
 Unsetting MY_API_KEY and restarting myapp... done, v13
 ```
+
+##Heroku Doc References
+
+Reference these guides from the heroku documentation:
+
+*  <a href="https://devcenter.heroku.com/articles/rails4" target="_blank">Rails 4 on Heroku</a>
+*  <a href="https://devcenter.heroku.com/articles/heroku-postgresql" target="_blank">Heroku Postgres</a>
+*  <a href="https://devcenter.heroku.com/articles/rake" target="_blank">Running Rake Commands</a>
