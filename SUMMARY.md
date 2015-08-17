@@ -60,6 +60,7 @@
   * [Name Variables](/how_to/name-variables.md)
   * [Setup Express](/how_to/express_project_setup.md)
   * [Setup Heroku Node & Mongo](/how_to/heroku_node_mongo.md)
+  * [Setup Heroku Rails & Postgres](/how_to/heroku_rails_postgres.md)
   * [Hiding API Keys]()
   * [Image Upload Rails](/how_to/rails-image-upload.md)
   * [Pretty URLs Rails](/how_to/rails-pretty-urls.md)
