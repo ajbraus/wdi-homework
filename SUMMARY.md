@@ -15,11 +15,11 @@
 * [JS Functions](js-functions.md)
   * [Challenges](js-functions-challenges.md)
   * [Solutions](js-functions-solutions.md)
-* [DOM & Vanilla JS]()
+<!-- * [DOM & Vanilla JS]() -->
 * [jQuery](jquery.md)
   * [Challenges](jquery-challenges.md)
   <!-- * [Solutions](jquery-solutions.md) TODO -->
-* [JS Constructors]()
+<!-- * [JS Constructors]()
 * [Client-Side Templating]()
 * [Bootstrap JS]()
 * [Object Oriented Programming]()
@@ -32,7 +32,7 @@
 * [Mongoose]()
 * [NoSQL Associations]()
 * [Sessions, Cookies, Tokens]()
-* [Authentication & Authorization]()
+* [Authentication & Authorization]() -->
 * [Intro to Ruby](intro-to-ruby.md)
   * [Challenges](intro-to-ruby-challenges.md)
   * [Solutions](intro-to-ruby-solutions.md)
@@ -65,7 +65,7 @@
   * [Setup Express](/how_to/express_project_setup.md)
   * [Setup Heroku Node & Mongo](/how_to/heroku_node_mongo.md)
   * [Setup Heroku Rails & Postgres](/how_to/heroku_rails_postgres.md)
-  * [Hiding API Keys]()
+  <!-- * [Hiding API Keys]() -->
   * [Image Upload Rails](/how_to/rails-image-upload.md)
   * [Pretty URLs Rails](/how_to/rails-pretty-urls.md)
 
@@ -95,8 +95,7 @@
   * [Blog Lab](/labs/rails-blog-lab/README.md)
   * [Authentication in Rials Lab](/labs/rails-auth-lab/README.md)
   * [Pull Request Day](/labs/pull-request-day/README.md)
-
-* [Project 0](/probjects/project-0.md)
+<!-- * [Project 0](/probjects/project-0.md)
 * [Project 1](/probjects/project-1.md)
 * [Project 2](/probjects/project-2.md)
-* [Project 3](/probjects/project-3.md)
+* [Project 3](/probjects/project-3.md) -->
