@@ -46,7 +46,7 @@
 * [Rails Asset Pipeline](asset-pipeline.md)
 * [Partials](partials.md)
 * [Testing Rails Apps](rails-testing.md)
-<!-- * [Intro to Angular](intro-to-angular.md) -->
+* [Intro to Angular](intro-to-angular.md)
 <!-- * [Challenges](intro-to-angular-challenges.md) -->
 <!-- * [Angular Directives](angular-directives.md) -->
 <!-- * [Challenges](angular-directives-challenges.md) -->
