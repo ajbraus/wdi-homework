@@ -48,6 +48,8 @@
 * [Testing Rails Apps](rails-testing.md)
 <!-- * [Intro to Angular](intro-to-angular.md) -->
 <!-- * [Challenges](intro-to-angular-challenges.md) -->
+<!-- * [Angular Directives](angular-directives.md) -->
+<!-- * [Challenges](angular-directives-challenges.md) -->
 
 * [How To...](/how_to/README.md)
   * [Keyboard Shortcuts](/how_to/keyboard-shortcuts.md)
