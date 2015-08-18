@@ -28,9 +28,9 @@ To create application routes, we are going to use `ng-route`. `ng-route` helps u
 
 1. Create a folder in the top level of your app called `partials`.
 
-1. Create a new file called `groceries.html` and put it in the `partials` folder.
+1. Create a new file called `programming.html` and put it in the `partials` folder.
 
-1. In `index.html`, move the code between the `<body></body>` tags to your new `groceries.html` file.
+1. In `index.html`, move the code between the `<body></body>` tags to your new `programming.html` file.
 
 1. In `index.html` add an `ng-view` directive in the `body`.
 ```html
@@ -45,9 +45,9 @@ To create application routes, we are going to use `ng-route`. `ng-route` helps u
 .config(['$routeProvider',
     function($routeProvider) {
       $routeProvider.
-        when('/groceries', {
-          templateUrl: 'partials/groceries.html',
-          controller: 'GroceriesCtrl'
+        when('/programming', {
+          templateUrl: 'partials/programming.html',
+          controller: 'ProgrammingCtrl'
         }).
         otherwise({
           redirectTo: '/'
@@ -62,7 +62,7 @@ To create application routes, we are going to use `ng-route`. `ng-route` helps u
 1. Include this
 
   ```js
-  var todoControllers = angular.modules('todoControllers', []);
+  var todoControllers = angular.modules('starter', []);
 
   todoControllers.controller('TodoCtrl', [$scope,
       function($scope) {
@@ -71,11 +71,14 @@ To create application routes, we are going to use `ng-route`. `ng-route` helps u
   ])
   ```
 
-1. Move the page specific code from `app.js` to space where the `...` is in your controller.
+1. Move the page specific code from `app.js` to the space where the `...` is in `controllers.js`.
 
 ## Base Challenges
-1. Add a navbar to your layout template (`index.html`) that will navigate between your home page and your new groceries page.
+1. Add a navbar to your layout template (`index.html`) that will navigate between your home page and your new programming page.
 1. Add another route called `cleaning`.
 1. Add some items to your `cleaning` page.
+1. Add a button that marks all the todos as complete.
+1. Add a way to show only completed todos and only active todos.
+1. Add functionality that deletes all completed todos.
 
 ## Try Challenges
