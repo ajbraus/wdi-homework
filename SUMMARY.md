@@ -50,6 +50,8 @@
 <!-- * [Challenges](intro-to-angular-challenges.md) -->
 <!-- * [Angular Directives](angular-directives.md) -->
 <!-- * [Challenges](angular-directives-challenges.md) -->
+<!-- * [Custom Directives](angular-custom-directives.md) -->
+<!-- * [Challenges](angular-custom-directives.md) -->
 
 * [How To...](/how_to/README.md)
   * [Keyboard Shortcuts](/how_to/keyboard-shortcuts.md)

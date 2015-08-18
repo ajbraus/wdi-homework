@@ -29,6 +29,8 @@ Angular is made up of directives that supercharge your html. Some of them you al
 This directive lets you pluralize nouns based on a dynamic `count` variable or expression.
 
 ```html
+<div ng-init="personCount = 1"></div>
+
 <ng-pluralize count="personCount"
                  when="{'0': 'Nobody is viewing.',
                      'one': '1 person is viewing.',
@@ -40,6 +42,21 @@ This directive lets you pluralize nouns based on a dynamic `count` variable or e
 Nobody is viewing
 1 person is viewing
 4 people are viewing
+```
+
+## ng-include
+
+With the `ng-include` directive Angular allows you to use partial templates like we've see with underscore, handlebars, and rails. Try out this example. Careful to remember to include the single quotes inside the double quotes.
+
+```html
+  <ng-include src="'navbar.html'"></ng-include>
+```
+> **Watch out!** if you don't run a server with `http-server`, you can't have templates be in separate folder, they have to be inline like in underscore.
+
+You can also use `ng-repeat` an `ng-include` together.
+
+```html
+  <ng-include src="'article.html'" ng-repeat="article in articles"></ng-include>
 ```
 
 ## Validation

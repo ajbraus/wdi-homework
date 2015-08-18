@@ -42,7 +42,7 @@ Through data binding, Angular makes the UI of single page applications multiple 
   </body>
   </html>
   ```
-2. `npm install http-server` and call `http-server` - now open `http://localhost:8080` in your browser
+2. `sudo npm install http-server -g` and call `http-server` - now open `http://localhost:8080` in your browser
 3. Type in the input. What do you see?
 
 This is a two way data binding. As you type, you update `$scope` Angular's data model. Every time the model is updated, Angular updates the views to match the new state of the model. This is called Angular's **Digest Cycle**. In jQuery this would be like having a `change()` listener on every element and a function that updates the DOM, something like this but for every element:
