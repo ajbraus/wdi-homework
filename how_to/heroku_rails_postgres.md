@@ -190,3 +190,25 @@ $ heroku config
 $ heroku config:unset MY_API_KEY
 Unsetting MY_API_KEY and restarting myapp... done, v13
 ```
+
+##Heroku Doc References
+
+Reference these guides from the heroku documentation.
+
+Basic Heroku Rails, PostgreSQL setup:
+
+*  <a href="https://devcenter.heroku.com/articles/rails4" target="_blank">Rails 4 on Heroku</a>
+*  <a href="https://devcenter.heroku.com/articles/heroku-postgresql" target="_blank">Heroku Postgres</a>
+*  <a href="https://devcenter.heroku.com/articles/rake" target="_blank">Running Rake Commands</a>
+
+
+
+Adding Collaborators on Heroku:
+
+*  <a href="https://devcenter.heroku.com/articles/sharing" target="_blank">Collaborating with Other Developers on Your App</a>
+
+Adding a Remote on GitHub:
+
+Your new Heroku collaborators should add the project's heroku repo as a remote on GitHub.
+
+*  <a href="https://help.github.com/articles/adding-a-remote/" target="_blank">Adding a remote</a>
