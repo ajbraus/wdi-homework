@@ -1,8 +1,22 @@
-# Angular Custom Directives
+# Custom & External Angular Directives
 
 Directives are snippets of html with their own custom JavaScript logic. Think of your app as a butterfly collection and each butterfly is a directive. Angular's concept of directives helps separate concerns and duties of code while making your views dry and logic-less. Also Angular directive are very modular and can be added, shared, and swapped between projects. Checkout [ng-modules](http://ngmodules.org/) to find popular Angular Directives and add them to your projects.
 
 ![butterflys](/images/butterfly.jpg)
+
+## Adding an External Directive
+
+Sometimes when you are looking to solve a problem you find a solution has already been made in the form of a directive. Now the challenge is how to include that directive in your project.
+
+1. First, add the files to your project
+2. Include them in `index.html`
+3. Inject the directive into your app.
+  ```js
+    angular.module('yourApp', ['ngResource', 'ngMap', 'pickadate', 'ui.bootstrap'])
+  ```
+4. Now they should be ready to use in your templates.
+
+Simple as that! . . . well err, there can be complications!
 
 ## Making Your Own Directive
 
@@ -12,7 +26,7 @@ Directives are snippets of html with their own custom JavaScript logic. Think of
 
 > Reference: [ng-newsletter blog post on directives](http://www.ng-newsletter.com/posts/directives.html)
 
-Imagine you wanted to make a "sparkline" (a miniature line chart) of the temperature the past few days and reuse it on various pages for various cities. A directive would be a great solution! Let's look at a sample "sparkline" directive that fetches weather data about a city and displays a sparkline graph of it.
+Imagine you wanted to make a box that displayed the current weather of a city and reuse the same snippet on various pages for various cities. A directive would be a great solution! Let's look at how you'd build this directive that fetches weather data about a city and displays the weather.
 
 Place this HTML anywhere in your templates:
 ```html
@@ -129,10 +143,3 @@ The `{{text}}` inside the `<pane></pane>` directive parent html element will be 
   <pane title="{{title}}">{{text}}</pane>
 </div>
 ```
-
-
-# Challenge
-
-1. If you haven't already, load the `currentWeather` directive into an angular app and get it to work.
-2. Can you pull out the template into a different file and use the `templateUrl` option?
-3. Can you improve the template and show more information from inside the `weather` JSON?

@@ -11,6 +11,7 @@ Read the [Introductory docs for Angular]( https://docs.angularjs.org/guide/intro
 2. What is a two way data binding exactly and how would you use it?
 3. What does it mean to have a controller attached to a piece of a view?
 4. How does Angular make it easier to make full featured Single Page Applications?
+5. What is "dependency injection" in Angular?
 
 Read this [Introduction to $scope](https://docs.angularjs.org/guide/scope) From the top through the **Scope Life Cycle** section and answer these questions:
 

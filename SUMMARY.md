@@ -15,29 +15,33 @@
 * [JS Functions](js-functions.md)
   * [Challenges](js-functions-challenges.md)
   * [Solutions](js-functions-solutions.md)
-<!-- * [DOM & Vanilla JS]() -->
-* [jQuery](jquery.md)
+* [jQuery & The DOM](jquery.md)
   * [Challenges](jquery-challenges.md)
-  <!-- * [Solutions](jquery-solutions.md) TODO -->
-<!-- * [JS Constructors]()
-* [Client-Side Templating]()
-* [Bootstrap JS]()
-* [Object Oriented Programming]()
-* [Prototype Inheritance]()
-* [Project Planning]()
-* [APIs]()
-* [ExpressJS]()
-* [Testing]()
-* [Mongo]()
-* [Mongoose]()
-* [NoSQL Associations]()
-* [Sessions, Cookies, Tokens]()
-* [Authentication & Authorization]() -->
+  * [Solutions](jquery-solutions.md)
+* [JS Constructors](js-constructors.md)
+* [Client-Side Templating w/ Underscore](undescore-templating.md)
+* [Bootstrap JS](bootstrap-js.md)
+* [Object Oriented Programming](oop.md)
+  * [Solutions](oop-solutions.md)
+* [Prototype Inheritance](prototype-inheritance.md)
+* [Project Planning](project-plainning)
+* [APIs](exploring-apis.md)
+* [APIs & AJAX](apis-and-ajax.md)
+* [RESTful Routes & CRUD](apis-rest-crud.md)
+* [Intro to ExpressJS](express-intro.md)
+* [UD in Express](express-update-delete.md)
+* [Testing in Express](express-testing.md)
+* [Intro to MongoDB](mongo-intro.md)
+* [Mongoose](mongo-mongoose.md)
+* [NoSQL Associations](mongo-associations.md)
+* [Authentication with Sessions & Cookies](express-auth.md)
+* [Express & Bcrypt](express-auth-bcrypt.md)
 * [Intro to Ruby](intro-to-ruby.md)
   * [Challenges](intro-to-ruby-challenges.md)
   * [Solutions](intro-to-ruby-solutions.md)
 * [Ruby OOP](ruby-oop.md)
 * [Intro to Rails](intro-to-rails.md)
+<!-- break out template helpers -->
 * [Rails Models, Resources & Templating](rails-templating.md)
 * [7 Things I Wish I Had Known About Rails](what-i-wish-i-knew-about-rails.md)
 * [Active Record](active-record.md)
@@ -46,12 +50,12 @@
 * [Rails Asset Pipeline](asset-pipeline.md)
 * [Partials](partials.md)
 * [Testing Rails Apps](rails-testing.md)
-<!-- * [Intro to Angular](intro-to-angular.md) -->
+* [Intro to Angular](intro-to-angular.md)
 <!-- * [Challenges](intro-to-angular-challenges.md) -->
 <!-- * [Angular Directives](angular-directives.md) -->
 <!-- * [Challenges](angular-directives-challenges.md) -->
 <!-- * [Custom Directives](angular-custom-directives.md) -->
-<!-- * [Challenges](angular-custom-directives.md) -->
+<!-- * [Challenges](angular-custom-directives-challenges.md) -->
 
 * [How To...](/how_to/README.md)
   * [Keyboard Shortcuts](/how_to/keyboard-shortcuts.md)
@@ -95,7 +99,8 @@
   * [Blog Lab](/labs/rails-blog-lab/README.md)
   * [Authentication in Rials Lab](/labs/rails-auth-lab/README.md)
   * [Pull Request Day](/labs/pull-request-day/README.md)
-<!-- * [Project 0](/probjects/project-0.md)
-* [Project 1](/probjects/project-1.md)
-* [Project 2](/probjects/project-2.md)
-* [Project 3](/probjects/project-3.md) -->
+* [Projects](/projects/README.md)
+  * [Project 0](/probjects/project-0-microblog.md)
+  * [Project 1](/probjects/project-1.md)
+  * [Project 2](/probjects/project-2.md)
+  * [Project 3](/probjects/project-3.md)
