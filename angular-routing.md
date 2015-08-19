@@ -16,7 +16,6 @@
 ```js
 angular.module('app', ['ngRoute']);
 ```
-
 1. Now we're ready to set up our routes!
 
 *** a quick note on naming conventions -- modules like `ng-route` will sometimes be written as `ngRoute`. They are referring to the same module, just in different contexts. ***
@@ -26,9 +25,9 @@ As you can probably imagine, as our app grows, our single `html` file is going t
 
 To create application routes, we are going to use `ng-route`. `ng-route` helps us wire together controllers, view templates, and the current URL location.
 
-1. Create a folder in the top level of your app called `partials`.
+1. Create a folder in the top level of your app called `templates`.
 
-1. Create a new file called `programming.html` and put it in the `partials` folder.
+1. Create a new file called `programming.html` and put it in the `templates` folder.
 
 1. In `index.html`, move the code between the `<body></body>` tags to your new `programming.html` file.
 
@@ -46,7 +45,7 @@ To create application routes, we are going to use `ng-route`. `ng-route` helps u
     function($routeProvider) {
       $routeProvider.
         when('/programming', {
-          templateUrl: 'partials/programming.html',
+          templateUrl: 'templates/programming.html',
           controller: 'ProgrammingCtrl'
         }).
         otherwise({
