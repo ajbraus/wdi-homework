@@ -38,6 +38,7 @@
   * [Solutions](intro-to-ruby-solutions.md)
 * [Ruby OOP](ruby-oop.md)
 * [Intro to Rails](intro-to-rails.md)
+<!-- break out template helpers -->
 * [Rails Models, Resources & Templating](rails-templating.md)
 * [7 Things I Wish I Had Known About Rails](what-i-wish-i-knew-about-rails.md)
 * [Active Record](active-record.md)
@@ -51,7 +52,7 @@
 <!-- * [Angular Directives](angular-directives.md) -->
 <!-- * [Challenges](angular-directives-challenges.md) -->
 <!-- * [Custom Directives](angular-custom-directives.md) -->
-<!-- * [Challenges](angular-custom-directives.md) -->
+<!-- * [Challenges](angular-custom-directives-challenges.md) -->
 
 * [How To...](/how_to/README.md)
   * [Keyboard Shortcuts](/how_to/keyboard-shortcuts.md)
