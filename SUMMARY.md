@@ -41,7 +41,7 @@
   * [Solutions](intro-to-ruby-solutions.md)
 * [Ruby OOP](ruby-oop.md)
 * [Intro to Rails](intro-to-rails.md)
-<!-- break out template helpers -->
+<!-- Make dedicated template helpers lesson -->
 * [Rails Models, Resources & Templating](rails-templating.md)
 * [7 Things I Wish I Had Known About Rails](what-i-wish-i-knew-about-rails.md)
 * [Active Record](active-record.md)
@@ -50,6 +50,7 @@
 * [Rails Asset Pipeline](asset-pipeline.md)
 * [Partials](partials.md)
 * [Testing Rails Apps](rails-testing.md)
+* [Rails and AJAX](rails-ajax.md)
 * [Intro to Angular](intro-to-angular.md)
 <!-- * [Challenges](intro-to-angular-challenges.md) -->
 <!-- * [Angular Directives](angular-directives.md) -->
@@ -97,7 +98,7 @@
   * [Authentication in Express](/labs/node-auth-lab/README.md)
   * [Bog Lab](/labs/rails-bog-lab/README.md)
   * [Blog Lab](/labs/rails-blog-lab/README.md)
-  * [Authentication in Rials Lab](/labs/rails-auth-lab/README.md)
+  * [Authentication in Rails Lab](/labs/rails-auth-lab/README.md)
   * [Pull Request Day](/labs/pull-request-day/README.md)
 * [Projects](/projects/README.md)
   * [Project 0](/probjects/project-0-microblog.md)
