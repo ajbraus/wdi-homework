@@ -4,46 +4,6 @@ Angular is made up of directives that supercharge your html. Some of them you al
 
 **Follow Along** - please create a basic angular project in an `index.html` page and follow along with these examples by copying them into your code and trying them out.
 
-## Hiding and Showing
-
-#### `ng-show`
-(Hint: use `ng-init` to set a variable upon initialization)
-```html
-<div ng-init="current_user = { name: 'bob' }"></div>
-
-<div ng-show="current_user">
-  {{current_user.name}}
-</div>
-```
-
-#### `ng-hide`
-```html
-<div ng-hide="its_nighttime">
-  Good Night!
-</div>
-```
-
-
-## ng-pluralize
-
-This directive lets you pluralize nouns based on a dynamic `count` variable or expression.
-
-```html
-<div ng-init="personCount = 1"></div>
-
-<ng-pluralize count="personCount"
-                 when="{'0': 'Nobody is viewing.',
-                     'one': '1 person is viewing.',
-                     'other': '{} people are viewing.'}">
-</ng-pluralize>
-```
-
-```
-Nobody is viewing
-1 person is viewing
-4 people are viewing
-```
-
 ## ng-include
 
 With the `ng-include` directive Angular allows you to use partial templates like we've see with underscore, handlebars, and rails. Try out this example. Careful to remember to include the single quotes inside the double quotes.

@@ -15,7 +15,7 @@
 For these challenges use your todo app from yesterday
 
 1. Pluralize the label of the count of your todos. e.g. "4 Todos"
-1. Add an attribute `created_at` to your todos and use the `date` filter to display this time as "posted on Monday April 24, 2015"
+1. Add an attribute `created_at` to your todos and use the `date` filter to display this time as "posted on Monday April 24, 2015". Hint: use `new Date()`
 1. Update your todo form to use an actual `<form>` and `ng-submit`.
 1. Require the `todo.title` and disable the button if `todo.title.$invalid`
 1. Use a partial and the `ng-include` directive to iterate over your todos.

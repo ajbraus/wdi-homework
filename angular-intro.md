@@ -19,6 +19,11 @@ Read this [Introduction to $scope](https://docs.angularjs.org/guide/scope) From 
 2. What is the relationship between any $scope and $rootScope?
 3. What is the relationship between the $scope and the DOM?
 
+## Analogy for `$scope`
+
+Think of `$scope` as the string between two cans: one can is the views, the other is your linked controller.
+
+![telephone](images/stringtelephone.jpg)
 
 # Challenge
 
@@ -52,4 +57,44 @@ This is a two way data binding. As you type, you update `$scope` Angular's data 
   $('input').change(function() {
     $('#term').text($(this).val());
   });
+```
+
+## Hiding and Showing
+
+#### `ng-show`
+(Hint: use `ng-init` to set a variable upon initialization)
+```html
+<div ng-init="current_user = { name: 'bob' }"></div>
+
+<div ng-show="current_user">
+  {{current_user.name}}
+</div>
+```
+
+#### `ng-hide`
+```html
+<div ng-hide="its_nighttime">
+  Good Night!
+</div>
+```
+
+
+## ng-pluralize
+
+This directive lets you pluralize nouns based on a dynamic `count` variable or expression.
+
+```html
+<div ng-init="personCount = 1"></div>
+
+<ng-pluralize count="personCount"
+                 when="{'0': 'Nobody is viewing.',
+                     'one': '1 person is viewing.',
+                     'other': '{} people are viewing.'}">
+</ng-pluralize>
+```
+
+```
+Nobody is viewing
+1 person is viewing
+4 people are viewing
 ```

@@ -33,7 +33,7 @@ To create application routes, we are going to use `ng-route`. `ng-route` helps u
 
 1. In `index.html` add an `ng-view` directive in the `body`.
 ```html
-<body>
+<body ng-controller="MainCtrl">
       <div ng-view></div>
 </body>
 ```
@@ -81,4 +81,4 @@ To create application routes, we are going to use `ng-route`. `ng-route` helps u
 1. Add a way to show only completed (checked) todos and only active (unchecked) todos.
 1. Add functionality that deletes all completed todos.
 
-## Try Challenges
+## Evening Challenges

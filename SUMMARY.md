@@ -53,9 +53,12 @@
 * [Rails and AJAX](rails-ajax.md)
 * [Intro to Angular](angular-intro.md)
 <!-- * [Challenges](angular-intro-challenges.md) -->
-<!-- * [Angular Directives](angular-directives.md) -->
+* [Angular Directives](angular-directives.md)
 <!-- * [Challenges](angular-directives-challenges.md) -->
-<!-- * [Custom Directives](angular-custom-directives.md) -->
+<!-- * [Angular Routing](angular-routing.md) -->
+<!-- * [Challenges](angular-routing-challenges.md) -->
+<!-- * [Angular ngResource](angular-resource.md) -->
+* [Custom Directives](angular-custom-directives.md)
 <!-- * [Challenges](angular-custom-directives-challenges.md) -->
 
 * [How To...](/how_to/README.md)
@@ -104,4 +107,4 @@
   * [Project 0](/projects/project-0-microblog.md)
   * [Project 1](/projects/project-1.md)
   * [Project 2](/projects/project-2.md)
-  * [Project 3](/projects/project-3.md)
+  <!-- * [Project 3](/projects/project-3.md) -->
