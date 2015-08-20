@@ -27,7 +27,7 @@ Read this [Introduction to $scope](https://docs.angularjs.org/guide/scope) From 
 Through data binding, Angular makes the UI of single page applications multiple times less complex. In order to understand data bindings its best to just set one up. Please follow along and make the most basic angular app you can:
 
 1. Create the two root files of any AngularJS app in a new folder: `index.html` and `app.js`
-2. For now, ignore `app.js`. In `index.html` add the below code that 1. adds angular to an html file, 2. puts an input field but add the "directive" `ng-model` which connects the input field's value to the AngularJS data model called `$scope`, and 3. binds this model to with the `{{}}` notation.
+2. For now, ignore `app.js`. In `index.html` add the below code that 1. adds angular to an html file, 2. puts an input field but add the "directive" `ng-model` which connects the input field's value to the AngularJS data model called `$scope`, and 3. binds this model to with the ```{{}}``` notation.
   ```html
   <!doctype html>
   <html ng-app>
