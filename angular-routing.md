@@ -73,11 +73,12 @@ To create application routes, we are going to use `ng-route`. `ng-route` helps u
 1. Move the page specific code from `app.js` to the space where the `...` is in `controllers.js`.
 
 ## Base Challenges
-1. Add a navbar to your layout template (`index.html`) that will navigate between your home page and your new programming page.
+1. Add a navbar to your layout template (`index.html`) that will navigate between your home page and your new programming page (use `ng-href`).
 1. Add another route called `cleaning`.
-1. Add some items to your `cleaning` page.
+1. Add some items to your `cleaning` page with an input field.
+1. Add checkboxes next to each of the todos (use `ng-model`).
 1. Add a button that marks all the todos as complete.
-1. Add a way to show only completed todos and only active todos.
+1. Add a way to show only completed (checked) todos and only active (unchecked) todos.
 1. Add functionality that deletes all completed todos.
 
 ## Try Challenges
