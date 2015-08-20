@@ -93,7 +93,6 @@ Formats a number as a currency (ie $1,234.56). When no currency symbol is provid
 // $1,234.56
 ```
 
-
 #### `date`
 
 ```js

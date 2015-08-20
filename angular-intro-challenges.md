@@ -9,18 +9,36 @@
 
 ## Background
 
-Angular is an opinionated yet flexible front end framework made for building robust single page applications. It is written in JavaScript and created and maintained by Google.
+Angular is an opinionated yet flexible front end framework made for building robust single page web applications. It is written in JavaScript and created and maintained by Google.
 
 ## View Controllers
 
 Angular is very modular and lets you add controllers to your views. Tomorrow we'll learn Angular Routing where we will learn how to map controllers to views and urls.
 
-1. In `app.js` initialize an angular app called `starter`
+1. Create an `index.html` and an `app.js` file in a new folder.
+1. In `index.html` put this template:
 
+  ```html
+  <!doctype html>
+  <html ng-app>
+  <head>
+    <title>My Angular App</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+  </head>
+  <body>
+
+    <input type="text" ng-model="term" />
+    <p>{{term}}</p>
+
+  </body>
+  </html>
+  ```
+
+1. In `app.js` initialize an angular app called `starter`
   ```js
   angular.module('starter', [])
   ```
-2. Now connect this script to your `index.html` and set `starter` to be the value of your `ng-app` directive. Check that everything works the same.
+2. Now connect this script to your `index.html` and set `starter` to be the value of your `ng-app` directive. Check that everything works the same. Now you've linked your angular code to your template through `ng-app`.
 
   ```html
   <html ng-app="starter">
@@ -32,7 +50,7 @@ Angular is very modular and lets you add controllers to your views. Tomorrow we'
   ...
   ```
 
-3. Now add a controller to your `app.js` and connect it to your `<body>` tag with the directive `ng-controller`.  
+3. Now add a controller to your `app.js` and connect it to your `<body>` tag with the directive `ng-controller`. We'll set a value of `$scope.term` to make sure that the controller is working.
 
   ```js
   angular.module('starter', [])
@@ -47,7 +65,7 @@ Angular is very modular and lets you add controllers to your views. Tomorrow we'
 
 ## Adding a function to $scope
 
-`$scope` reflects the state of data, but it also holds functions that can fire to query an API, change the DOM, or filter or change the model. Let's add a simple function.
+`$scope` reflects the state of data, but it also holds functions that can fire to query an API, change the DOM, or filter or change the model. Let's add a simple function to `$scope`.
 
 1.  Add a button to your page and add the `ng-click` directive attribute to attach a click event activated function. Let's pass in the function as the value of the attribute: `showAlert()`.
 
@@ -66,7 +84,7 @@ Angular is very modular and lets you add controllers to your views. Tomorrow we'
     }
   }])
   ```
-3. Try it out.
+3. Try out your new function.
 
 ## Base Challenges
 
@@ -80,10 +98,10 @@ Angular is very modular and lets you add controllers to your views. Tomorrow we'
 7. Make a button that has a click function that takes the `$scope.todo` and pushes it on to the `$scope.todos` array. After pushing the new todo, set `$scope.todo.title` to "".
 9. Display a counter of how many todos you have.
 
-## Try Challenges (Required to try to complete today)
+## Evening Challenges
 
 1. Make a button on each todo that deletes that todo from the array of todos. Add underscore and use the `_.findWhere()` function to find the todo where the title is equal to the title clicked. (Remember that to access the clicked element use the reserved word `this`)
-1. 
+1.
 
 
 ## Extra Challenges

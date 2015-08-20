@@ -25,4 +25,8 @@ For these challenges use your todo app from yesterday
 
 ## Evening Challenges
 
-1. Add a new resource to your todos called "Lists". Lists have a title and many todos. (Hint: Think mongo nested resource). Wireframe how you would navigate between lists of todos and add new todos to various lists. Use `ng-repeat` and `filter` to filter to see only one list's todos. Make new lists and make new todos on the lists.
+1. Add a new resource to your todos called "Lists".
+  * Lists have a title and many todos. (Hint: Think mongo nested resource).
+  * Wireframe how you would navigate between lists of todos and add new todos to various lists.
+  * Use `ng-repeat` and `filter` to filter to see only one list's todos.
+  * Make new lists and make new todos on the lists.
