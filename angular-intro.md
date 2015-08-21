@@ -27,7 +27,9 @@ Think of `$scope` as the string between two cans: one can is the views, the othe
 
 ## Nested `$scopes` and `$rootScope`
 
-Scopes are arranged in a nested tree structure. Controllers are nested inside each other, and this nests their scopes. The parent or root scope of all scopes is `$rootScope`.
+Scopes are arranged in a nested tree structure. Controllers are nested inside each other, and this nests their scopes. The parent or root scope of all scopes is `$rootScope`. Don't worry too much now about access data across scopes, just be aware of their nested structure.
+
+![nested-scopes](images/nested-scopes.png)
 
 ## Module Dependency Injection
 
