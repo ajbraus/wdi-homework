@@ -25,6 +25,12 @@ Think of `$scope` as the string between two cans: one can is the views, the othe
 
 ![telephone](images/stringtelephone.jpg)
 
+## Nested `$scopes` and `$rootScope`
+
+Scopes are arranged in a nested tree structure. Controllers are nested inside each other, and this nests their scopes. The parent or root scope of all scopes is `$rootScope`.
+
+!
+
 # Challenge
 
 ## Data Bindings
@@ -38,7 +44,7 @@ Through data binding, Angular makes the UI of single page applications multiple 
   <html ng-app>
   <head>
     <title>My Angular App</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
   </head>
   <body>
 

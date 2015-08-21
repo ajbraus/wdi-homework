@@ -34,14 +34,14 @@ Angular is very modular and lets you add controllers to your views. Tomorrow we'
   </html>
   ```
 
-1. In `app.js` initialize an angular app called `starter`
+1. In `app.js` initialize an angular app called `starterApp`
   ```js
-  angular.module('starter', [])
+  angular.module('starterApp', [])
   ```
-2. Now connect this script to your `index.html` and set `starter` to be the value of your `ng-app` directive. Check that everything works the same. Now you've linked your angular code to your template through `ng-app`.
+2. Now connect this script to your `index.html` and set `starterApp` to be the value of your `ng-app` directive. Check that everything works the same. Now you've linked your angular code to your template through `ng-app`.
 
   ```html
-  <html ng-app="starter">
+  <html ng-app="starterApp">
   <head>
     <title>My Angular App</title>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
@@ -53,7 +53,7 @@ Angular is very modular and lets you add controllers to your views. Tomorrow we'
 3. Now add a controller to your `app.js` and connect it to your `<body>` tag with the directive `ng-controller`. We'll set a value of `$scope.term` to make sure that the controller is working.
 
   ```js
-  angular.module('starter', [])
+  angular.module('starterApp', [])
     .controller("MainCtrl", ['$scope', '$rootScope', function ($scope, $rootScope) {
       $scope.term = "cellar door"
     }])
@@ -76,7 +76,7 @@ Angular is very modular and lets you add controllers to your views. Tomorrow we'
 2. Now in our `MainCtrl`, let's add this function to `$scope` and have it create an alert with the value of `$scope.term`
 
   ```js
-  angular.module('starter', [])
+  angular.module('starterApp', [])
   .controller("MainCtrl", ['$scope', '$rootScope', function ($scope, $rootScope) {
     $scope.term = "cellar door"
     $scope.showAlert = function() {

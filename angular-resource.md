@@ -27,27 +27,27 @@ angular.module('app', ['ngResource']);
 1. The result of the function call is a resource class object which has the following five methods by default: `get()`, `query()`, `save()`, `remove()`, `delete()` (delete is an alias for remove)
 
 1. Let’s see how we can use the `get()`, `query()`, `save()`, and `delete()` methods in a controller:
-```js
-angular.module('myApp').controller('ResourceController',function($scope, Book) {
-    $scope.book = Book.get({ id: $scope.id }, function(data) {
-      console.log(data);
-    }); // get() returns a single book
+  ```js
+  angular.module('myApp').controller('ResourceController',function($scope, Book) {
+      $scope.book = Book.get({ id: $scope.id }, function(data) {
+        console.log(data);
+      }); // get() returns a single book
 
-    $scope.allBooks = Book.query(function(data) {
-      console.log(data);
-    }); //query() returns all the books
+      $scope.allBooks = Book.query(function(data) {
+        console.log(data);
+      }); //query() returns all the books
 
-    // add a new book
-    $scope.newBook = {"title":"JavaScript: The Good Parts","author":"Douglas Crockford","image":"","release_date":"May 11, 2008"};
+      // add a new book
+      $scope.newBook = {"title":"JavaScript: The Good Parts","author":"Douglas Crockford","image":"","release_date":"May 11, 2008"};
 
-    Book.save($scope.newBook, function(data) {
-      console.log(data);
-    });
+      Book.save($scope.newBook, function(data) {
+        console.log(data);
+      });
 
-    // delete a book
-    Book.delete({id:200});
-});
-```
+      // delete a book
+      Book.delete({id:200});
+  });
+  ```
 
   The `get()` function in the above snippet issues a GET request to `/books/:id`.
 
