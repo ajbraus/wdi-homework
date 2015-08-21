@@ -44,17 +44,18 @@ app.directive('currentWeather', function() {
     template: '<div class="current-weather"><h4>Weather for {{city}}</h4>{{weather.main.temp}}</div>',
     //tempalteUrl: 'templates/current-weather-template.html',
     //transclude: true,
-    controller: ['$scope', '$http', function($scope, $http) {
-      var url = "http://api.openweathermap.org/data/2.5/weather?mode=json&cnt=7&units=imperial&callback=JSON_CALLBACK&q="
-      $scope.getWeather = function(city) {
-        $http({ method: 'JSONP', url: url + city })
-          .success(function(data) {
-            $scope.weather = data;
-          });
-      }
+    controller: ['$scope', '$http',
+      function ($scope, $http) {
+        var url = "http://api.openweathermap.org/data/2.5/weather?mode=json&cnt=7&units=imperial&callback=JSON_CALLBACK&q="
+        $scope.getWeather = function(city) {
+          $http({ method: 'JSONP', url: url + city })
+            .success(function(data) {
+              $scope.weather = data;
+            });
+        }
     }],
-    link: function(scope, iElement, iAttrs) {
-      scope.weather = scope.getWeather(iAttrs.city);
+    link: function (scope, element, attrs) {
+      scope.weather = scope.getWeather(attrs.city);
     }
   }
 });
@@ -132,10 +133,12 @@ The `{{text}}` inside the `<pane></pane>` directive parent html element will be 
                   '</div>'
       };
   })
-  .controller('ExampleController', ['$scope', function($scope) {
-    $scope.title = 'Lorem Ipsum';
-    $scope.text = 'Neque porro quisquam est qui dolorem ipsum quia dolor...';
-  }]);
+  .controller('ExampleController', ['$scope',
+    function($scope) {
+      $scope.title = 'Lorem Ipsum';
+      $scope.text = 'Neque porro quisquam est qui dolorem ipsum quia dolor...';
+    }
+  ]);
 </script>
 <div ng-controller="ExampleController">
   <input ng-model="title" aria-label="title"> <br/>
