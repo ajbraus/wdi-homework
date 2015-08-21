@@ -10,23 +10,7 @@ For the purposes of learning Angular, we will be using the standard `ngRoute` ro
 
 The core difference between `ng-route` and `ui-router` is that `ng-route` is based on URL and `ui-router` is based on the `state` of an application and treats the URL as merely an attribute of a state.
 
-## Accessing URL Params
-
-Using `ngRoute` we will want to access URL parameters in a controller, like when you want to use an `:id` to GET a single resource or when you want to.
-
-```js
-app.controller("GuitarDetailsController", ['$scope','$http','$routeParams',
- function($scope, $http, $routeParams)
-  {
-    $http.get('js/data.json').success (function(data){
-      $scope.guitarVariable = data;
-      $scope.whichGuitar = $routeParams.guitarID;
-    });
-  }]
-);
-```
-
-#### Vanilla ng-route
+## Vanilla ng-route
 
 ```js
 sampleApp.config(['$routeProvider',
@@ -46,7 +30,7 @@ sampleApp.config(['$routeProvider',
   }]);
 ```
 
-#### Vanilla ui-router
+## Vanilla ui-router
 
 > Reference: [ui-router](https://github.com/angular-ui/ui-router)
 
@@ -59,7 +43,23 @@ $stateProvider
   });
 ```
 
-## Adding `ngRoute` to A Project
+## Accessing URL Params
+
+Using `ngRoute` we will want to access URL parameters in a controller, like when you want to use an `:id` to GET a single resource or when you want to. We'll inject `$routeParams`
+
+```js
+app.controller("GuitarDetailsController", ['$scope','$http','$routeParams',
+ function($scope, $http, $routeParams)
+  {
+    $http.get('js/data.json').success (function(data){
+      $scope.guitarVariable = data;
+      $scope.whichGuitar = $routeParams.guitarID;
+    });
+  }]
+);
+```
+
+## Add `ngRoute` to A Project
 
 Please **Follow Along** with these steps to add `ngRoute` to your project.
 

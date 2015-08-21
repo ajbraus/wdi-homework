@@ -29,7 +29,29 @@ Think of `$scope` as the string between two cans: one can is the views, the othe
 
 Scopes are arranged in a nested tree structure. Controllers are nested inside each other, and this nests their scopes. The parent or root scope of all scopes is `$rootScope`.
 
-!
+## Module Dependency Injection
+
+We all know that some code depends on other code to run. But if you include all your scripts, your app can be slow. Angular gives you the power to selectively inject dependent modules into controllers only when you need them. There are two different notations you will see, with an array and without. We will be using **the array syntax** for dependency injection. We use the array notation because then if your code is every minified it will continue to work!
+
+Look at this example where we are adding a controller. We are injecting three dependencies:
+
+```
+$scope - this is $scope
+$http - this is a native AngularJS module for making $http requests
+$routeParams - this is a module from ngRoute for accessing URL params.
+```
+
+```js
+app.controller("GuitarDetailsController", ['$scope','$http','$routeParams',
+ function($scope, $http, $routeParams)
+  {
+    $http.get('js/data.json').success (function(data){
+      $scope.guitarVariable = data;
+      $scope.whichGuitar = $routeParams.guitarID;
+    });
+  }]
+);
+```
 
 # Challenge
 
