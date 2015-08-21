@@ -61,6 +61,7 @@
 * [Custom Angular Directives](angular-custom-directives.md)
 <!-- * [Challenges](angular-custom-directives-challenges.md) -->
 
+<!-- * [Usability](usability.md) -->
 * [How To...](/how_to/README.md)
   * [Keyboard Shortcuts](/how_to/keyboard-shortcuts.md)
   * [Pair Program](/how_to/how_to_pair_program.md)

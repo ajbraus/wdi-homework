@@ -12,6 +12,8 @@ The core difference between `ng-route` and `ui-router` is that `ng-route` is bas
 
 ## Vanilla ng-route
 
+> Reference: [ngRoute](https://docs.angularjs.org/api/ngRoute)
+
 ```js
 sampleApp.config(['$routeProvider',
   function($routeProvider) {

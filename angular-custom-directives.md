@@ -61,7 +61,9 @@ app.directive('currentWeather', function() {
 });
 ```
 
-### Restrict
+## Angular Directive Options
+
+#### Restrict
 
 The first option in an Angular directive is the `restrict` option. This option let's you specify how exactly you'd like to call the directive in HTML. Here are your options: A and E are the most popular.
 
@@ -72,11 +74,11 @@ The first option in an Angular directive is the `restrict` option. This option l
 'M' - <!-- directive: ng-sparkline -->
 ```
 
-### template and templateUrl
+#### template and templateUrl
 
 Using the `template` and `templateUrl` options you can define an HTML template inside the directive's JS or in a separate HTML file in the templates folder.
 
-### Scope inside a Directive
+#### Scope inside a Directive
 
 But wait a sec, how do directives interact with the `$scope` set by the local controller? Can I get data from the local controller into my directive?
 
@@ -105,15 +107,15 @@ scope: {
 }
 ```
 
-### controller
+#### controller
 
 The controller option allows you to define a controller specific and isolated to the directive.
 
-### link()
+#### link()
 
 The `link()` option is the meat and potatoes of the directive. Inside this function you determine what you would like to be done and you can update scope.
 
-### Transclude -- WTF?
+#### transclude -- (WTF!?)
 
 Don't be afraid of this fancy sounding word. It means that you can pass in a variable inside the directive parent element. Let's look at an example from the [Angular ngTransclude docs](https://docs.angularjs.org/api/ng/directive/ngTransclude).
 
