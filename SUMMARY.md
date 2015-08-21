@@ -55,7 +55,7 @@
 <!-- * [Challenges](angular-intro-challenges.md) -->
 * [Angular Directives](angular-directives.md)
 <!-- * [Challenges](angular-directives-challenges.md) -->
-<!-- * [Angular Routing](angular-routing.md) -->
+* [Angular Routing](angular-routing.md)
 <!-- * [Challenges](angular-routing-challenges.md) -->
 <!-- * [Angular ngResource](angular-resource.md) -->
 * [Custom Angular Directives](angular-custom-directives.md)

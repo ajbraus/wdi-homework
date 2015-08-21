@@ -59,9 +59,11 @@ app.controller("GuitarDetailsController", ['$scope','$http','$routeParams',
 );
 ```
 
-## Add `ngRoute` to A Project
+# Tutorial
 
 Please **Follow Along** with these steps to add `ngRoute` to your project.
+
+## Add `ngRoute` to A Project
 
 1. Include `angular-route.js` in your index.html file after `angular.js`
   ```html
