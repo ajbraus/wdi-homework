@@ -13,7 +13,7 @@ With the `ng-include` directive Angular allows you to use partial templates like
 ```
 > **Watch out!** if you don't run a server with `http-server`, you can't have templates be in separate folder, they have to be inline like in underscore.
 
-You can also use `ng-repeat` an `ng-include` together.
+You can also use `ng-repeat` and `ng-include` together.
 
 ```html
   <ng-include src="'article.html'" ng-repeat="article in articles"></ng-include>
