@@ -11,14 +11,19 @@
 
 ## Base Challenges
 
-1. Add a navbar to your layout template (`index.html`) that will navigate between your home page and your new programming page (use `ng-href`).
-1. Add another route to the URL `/about-us` with a template `about-us.html`.
-1. Add some items to your `cleaning` page with an input field.
-1. Add checkboxes next to each of the todos (use `ng-model`).
-1. Add a button that marks all the todos as complete.
+**Goal**:
+
+1. Add a navbar to your layout template (`index.html`) that will navigate between your home page and your new programming page. Use `ng-href` to make links to your other pages.
+1. Add another route to the URL `/about-us` with a template `about-us.html` and just put your name in it.
+1. Add a route to `/lists/:list_name` and link it to a `ListShowCtrl`. Put a console log in the controller and navigate to '/cleaning'.
+1. Now `console.log` the `$routeParams.list_name` and see it console log "cleaning".
+1. Return all the todos with a list of "cleaning" from your array of todos.
+1. Add a "new list" button that goes to a `/lists/new` route with a form that creates a new list. After it creates the list, use `$location.path('/lists/' + $scope.list.name)` redirect to the newly created list.
+1. Add a botton that marks a todo as completed.
 1. Add a way to show only completed (checked) todos and only active (unchecked) todos.
-1. Add functionality that deletes all completed todos.
+1. Inside the list add a button that markes all todos as done.
+1. Add a button to delete all completed todos.
 
-## Evening Challenges
+## Stretch Challenges
 
-1.
+1. Use the bootstrap modal to create sign up and login modals
