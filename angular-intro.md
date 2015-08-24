@@ -62,22 +62,25 @@ app.controller("GuitarDetailsController", ['$scope','$http','$routeParams',
 Through data binding, Angular makes the UI of single page applications multiple times less complex. In order to understand data bindings its best to just set one up. Please follow along and make the most basic angular app you can:
 
 1. Create the two root files of any AngularJS app in a new folder: `index.html` and `app.js`
-2. For now, ignore `app.js`. In `index.html` add the below code that 1. adds angular to an html file, 2. puts an input field but add the "directive" `ng-model` which connects the input field's value to the AngularJS data model called `$scope`, and 3. binds this model to with the double-bracket notation.
-  ```html
-  <!doctype html>
-  <html ng-app>
-  <head>
-    <title>My Angular App</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
-  </head>
-  <body>
+2. For now, ignore `app.js`. In `index.html` add the below code that
+  1. adds angular to an html file,
+  2. puts an input field and adds the "directive" `ng-model` which connects the input field's value to the AngularJS data model called `$scope`
+  3. binds this model to with the double-bracket notation.
+    ```html
+    <!doctype html>
+    <html ng-app>
+    <head>
+      <title>My Angular App</title>
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+    </head>
+    <body>
 
-    <input type="text" ng-model="term" />
-    <p>{{term}}</p>
+      <input type="text" ng-model="term" />
+      <p>{{term}}</p>
 
-  </body>
-  </html>
-  ```
+    </body>
+    </html>
+    ```
 2. `sudo npm install http-server -g` and call `http-server` - now open `http://localhost:8080` in your browser
 3. Type in the input. What do you see?
 
