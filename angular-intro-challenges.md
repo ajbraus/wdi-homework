@@ -100,8 +100,7 @@ AngularJS lets you attach controllers to bits and pieces of your view. Tomorrow 
 
 ## Evening Challenges
 
-1. Make a button on each todo that deletes that todo from the array of todos. Add underscore and use the `_.findWhere()` function to find the todo where the title is equal to the title clicked. (Remember that to access the clicked element use the reserved word `this`)
-1.
+1. Make a button on each todo that deletes that todo from the array of todos. Use `ng-click="deleteTodo(todo)`. (Remember that to access the clicked element use the reserved word `this`)
 
 
 ## Extra Challenges
