@@ -13,7 +13,7 @@ Angular is an opinionated yet flexible front end framework made for building rob
 
 ## View Controllers
 
-Angular is very modular and lets you add controllers to your views. Tomorrow we'll learn Angular Routing where we will learn how to map controllers to views and urls.
+AngularJS lets you attach controllers to bits and pieces of your view. Tomorrow we'll learn Angular Routing where we will learn how to map controllers to views and urls.
 
 1. Create an `index.html` and an `app.js` file in a new folder.
 1. In `index.html` put this template:

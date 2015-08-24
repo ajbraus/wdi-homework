@@ -52,7 +52,7 @@
 * [Testing Rails Apps](rails-testing.md)
 * [Rails and AJAX](rails-ajax.md)
 * [Intro to Angular](angular-intro.md)
-<!-- * [Challenges](angular-intro-challenges.md) -->
+* [Challenges](angular-intro-challenges.md)
 * [Angular Directives](angular-directives.md)
 <!-- * [Challenges](angular-directives-challenges.md) -->
 * [Angular Routing](angular-routing.md)
