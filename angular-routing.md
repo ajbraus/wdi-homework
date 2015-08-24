@@ -32,7 +32,7 @@ sampleApp.config(['$routeProvider',
   }]);
 ```
 
-## Vanilla ui-router
+## Vanilla ui-router (we won't be using this router)
 
 > Reference: [ui-router](https://github.com/angular-ui/ui-router)
 
@@ -63,7 +63,7 @@ app.controller("GuitarDetailsController", ['$scope','$http','$routeParams',
 
 # Tutorial
 
-Please **Follow Along** with these steps to add `ngRoute` to your project.
+Please **Follow Along** with these steps to add `ngRoute` to your project that you started yesterday.
 
 ## Add `ngRoute` to A Project
 
@@ -86,8 +86,8 @@ As you can probably imagine, as our app grows, our single `html` file is going t
 To create application routes, we are going to use `ng-route`. `ng-route` helps us wire together controllers, view templates, and the current URL location.
 
 1. Create a folder in the top level of your app called `templates`.
-1. Create a new file called `programming.html` and put it in the `templates` folder.
-1. In `index.html`, move the code between the `<body></body>` tags to your new `programming.html` file.
+1. Create a new file called `todo.html` and put it in the `templates` folder.
+1. In `index.html`, move the code between the `<body></body>` tags to your new `todo.html` file.
 1. In `index.html` add an `ng-view` directive in the `body`.
   ```html
   <body ng-controller="MainCtrl">
@@ -102,9 +102,9 @@ To create application routes, we are going to use `ng-route`. `ng-route` helps u
   .config(['$routeProvider',
       function($routeProvider) {
         $routeProvider.
-          when('/programming', {
-            templateUrl: 'templates/programming.html',
-            controller: 'ProgrammingCtrl'
+          when('/todo', {
+            templateUrl: 'templates/todo.html',
+            controller: 'TodoCtrl'
           }).
           otherwise({
             redirectTo: '/'
@@ -125,4 +125,4 @@ To create application routes, we are going to use `ng-route`. `ng-route` helps u
       }
   ])
   ```
-1. Move the page specific code from `app.js` to the space where the `...` is in `controllers.js`.
+1. Move the page specific code from `app.js` to the `TodoCtrl`.
