@@ -86,9 +86,8 @@ As you can probably imagine, as our app grows, our single `html` file is going t
 To create application routes, we are going to use `ng-route`. `ng-route` helps us wire together controllers, view templates, and the current URL location.
 
 1. Create a folder in the top level of your app called `templates`.
-1. Create a new file called `todo.html` and put it in the `templates` folder.
-1. In `index.html`, move the code between the `<body></body>` tags to your new `todo.html` file.
-1. Create a new file called `home.html` and put it in the `templates` folder. Add some welcome-type text to this file.
+1. Create a new file called `todos.html` and put it in the `templates` folder.
+1. In `index.html`, move the code between the `<body></body>` tags to your new `todos.html` file.
 1. In `index.html` add an `ng-view` directive in the `body`.
   ```html
   <body ng-controller="MainCtrl">
@@ -105,11 +104,7 @@ To create application routes, we are going to use `ng-route`. `ng-route` helps u
       function($routeProvider) {
         $routeProvider.
           when('/', {
-            templateUrl: 'templates/home.html',
-            controller: 'HomeCtrl'
-          }).
-          when('/todo', {
-            templateUrl: 'templates/todo.html',
+            templateUrl: 'templates/todos.html',
             controller: 'TodoCtrl'
           }).
           otherwise({
@@ -130,14 +125,6 @@ To create application routes, we are going to use `ng-route`. `ng-route` helps u
       }
   ])
   ```
-1. Add a new controller called `HomeCtrl`. This controller will be for your home page.
-  ```js
-  .controller('HomeCtrl', ['$scope',
-      function($scope) {
-        ...
-      }
-  ])
-  ```
 1. Move your `TodoCtrl` from `app.js` to this new file.
   ```js
   .controller('TodoCtrl', ['$scope',
@@ -147,5 +134,4 @@ To create application routes, we are going to use `ng-route`. `ng-route` helps u
   ])
   ```
 
-## Test it out
-1. In your browser, navigate between `/` and `/todo`. YAY!!!
+1. Make sure everything gets loaded correctly. YAY!!
