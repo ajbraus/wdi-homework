@@ -73,11 +73,11 @@ Please **Follow Along** with these steps to add `ngRoute` to your project that y
   ```
 1. Now you need to load the `ngRoute` module into your application.
   ```js
-    angular.module('starterApp', ['ngRoute']);
+    angular.module('starter', ['ngRoute'])
   ```
 1. Now we're ready to set up our routes!
 
-*** a quick note on naming conventions -- modules like `ng-route` will sometimes be written as `ngRoute`. They are referring to the same module, just in different contexts. ***
+** a quick note on naming conventions -- modules like `ng-route` will sometimes be written as `ngRoute`. They are referring to the same module, just in different contexts. **
 
 
 ## Setting up our Templates
@@ -86,8 +86,8 @@ As you can probably imagine, as our app grows, our single `html` file is going t
 To create application routes, we are going to use `ng-route`. `ng-route` helps us wire together controllers, view templates, and the current URL location.
 
 1. Create a folder in the top level of your app called `templates`.
-1. Create a new file called `todo.html` and put it in the `templates` folder.
-1. In `index.html`, move the code between the `<body></body>` tags to your new `todo.html` file.
+1. Create a new file called `todos.html` and put it in the `templates` folder.
+1. In `index.html`, move the code between the `<body></body>` tags to your new `todos.html` file.
 1. In `index.html` add an `ng-view` directive in the `body`.
   ```html
   <body ng-controller="MainCtrl">
@@ -97,13 +97,14 @@ To create application routes, we are going to use `ng-route`. `ng-route` helps u
 
 ## Configure our Routes
 
-1. Using the `.config()` method, we request the $routeProvider to be injected into our config function and use the `$routeProvider.when()` method to define our routes. Open up your `app.js` file. We're going to dot-chain our route information off our app.
+1. Using the `.config()` method, we request the $routeProvider to be injected into our config function and use the `$routeProvider.when()` method to define our routes. Open up your `app.js` file. We're going to dot-chain our route information off our app. Put this code at the top of the file right below where you define the app.
   ```js
+  angular.module('starter', ['ngRoute'])
   .config(['$routeProvider',
       function($routeProvider) {
         $routeProvider.
-          when('/todo', {
-            templateUrl: 'templates/todo.html',
+          when('/', {
+            templateUrl: 'templates/todos.html',
             controller: 'TodoCtrl'
           }).
           otherwise({
@@ -115,14 +116,22 @@ To create application routes, we are going to use `ng-route`. `ng-route` helps u
 ## Setting up our Controllers
 
 1. Create a new file in your top level called `controllers.js`.
-1. Include this
+1. Move your `MainCtrl` from `app.js` to this new file.
   ```js
-  var todoControllers = angular.modules('starter', []);
-
-  todoControllers.controller('TodoCtrl', ['$scope',
-      function($scope) {
-        console.log("The TodoCtrl lives to serve.")
+  angular.modules('starter', [])
+  .controller('MainCtrl', ['$scope', '$rootScope',
+      function($scope, $rootScope) {
+        ...
       }
   ])
   ```
-1. Move the page specific code from `app.js` to the `TodoCtrl`.
+1. Move your `TodoCtrl` from `app.js` to this new file.
+  ```js
+  .controller('TodoCtrl', ['$scope',
+      function($scope) {
+        ...
+      }
+  ])
+  ```
+
+1. Make sure everything gets loaded correctly. YAY!!
