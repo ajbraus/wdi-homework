@@ -60,7 +60,6 @@
 <!-- * [Angular ngResource](angular-resource.md) -->
 * [Custom Angular Directives](angular-custom-directives.md)
 <!-- * [Challenges](angular-custom-directives-challenges.md) -->
-
 <!-- * [Usability](usability.md) -->
 * [How To...](/how_to/README.md)
   * [Keyboard Shortcuts](/how_to/keyboard-shortcuts.md)
@@ -77,7 +76,6 @@
   <!-- * [Hiding API Keys]() -->
   * [Image Upload Rails](/how_to/rails-image-upload.md)
   * [Pretty URLs Rails](/how_to/rails-pretty-urls.md)
-
 * [Interview Prep](/interview_prep/README.md)
   * [Big 0](/interview_prep/big-0.md)
     * [Solutions](/interview_prep/big-0-solutions.md)
