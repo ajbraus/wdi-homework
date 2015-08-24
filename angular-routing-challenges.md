@@ -11,8 +11,6 @@
 
 ## Base Challenges
 
-**Goal**:
-
 1. Add a navbar to your layout template (`index.html`) that will navigate between your home page and your new programming page. Use `ng-href` to make links to your other pages.
 1. Add another route to the URL `/about-us` with a template `about-us.html` and just put your name in it.
 1. Add a route to `/lists/:list_name` and link it to a `ListShowCtrl`. Put a console log in the controller and navigate to '/cleaning'.
@@ -26,4 +24,5 @@
 
 ## Stretch Challenges
 
-1. Use the bootstrap modal to create sign up and login modals
+1. Use the bootstrap modal to create sign up and login modals (make sure these are narrow modals! not wide ones). Have the login and signup buttons and modals live in the MainCtrl. Put the `login` and `signup` functions in the `$scope` of the `MainCtrl`. That will give you the access to these modals and functions in all views. Have the signup and login functions just console log a `$scope.user` with email and password object you would send to the server.
+1. Make a "ListIndex" route, controller, and template to `/lists`. In list index you can navigate to All todos, each list, and always back.
