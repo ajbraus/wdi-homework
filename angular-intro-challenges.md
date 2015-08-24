@@ -13,7 +13,7 @@ Angular is an opinionated yet flexible front end framework made for building rob
 
 ## View Controllers
 
-Angular is very modular and lets you add controllers to your views. Tomorrow we'll learn Angular Routing where we will learn how to map controllers to views and urls.
+AngularJS lets you attach controllers to bits and pieces of your view. Tomorrow we'll learn Angular Routing where we will learn how to map controllers to views and urls.
 
 1. Create an `index.html` and an `app.js` file in a new folder.
 1. In `index.html` put this template:
@@ -100,8 +100,7 @@ Angular is very modular and lets you add controllers to your views. Tomorrow we'
 
 ## Evening Challenges
 
-1. Make a button on each todo that deletes that todo from the array of todos. Add underscore and use the `_.findWhere()` function to find the todo where the title is equal to the title clicked. (Remember that to access the clicked element use the reserved word `this`)
-1.
+1. Make a button on each todo that deletes that todo from the array of todos. Use `ng-click="deleteTodo(todo)`. (Remember that to access the clicked element use the reserved word `this`)
 
 
 ## Extra Challenges
