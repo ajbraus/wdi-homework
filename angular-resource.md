@@ -1,10 +1,9 @@
 # Angular Resource
 
-> Adapted from [Sitepoint](http://www.sitepoint.com/creating-crud-app-minutes-angulars-resource/)
-
-Built on the top of the `$http` service, Angular’s `$resource` is a service that lets you interact with RESTful backends easily. `$resource` is very similar to models in Rails. In this tutorial, we're going to make use of a book API that can be found here: `http://daretodiscover.herokuapp.com/books`
+Built on the top of the `$http` service, Angular’s `$resource` is a service that lets you interact with RESTful backends easily. `$resource` is very similar to models in Rails. In this tutorial, we're going to make use of a book API that can be found here: `http://daretodiscover.herokuapp.com/books`. The request syntax of the books API follows the same pattern as the wine API that you used yesterday.
 
 ## Installation
+1. Create a new angular app and controller.
 1. The `$resource` service doesn’t come bundled with the main Angular script. Add it to your `index.html` file.
 ```html
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular-resource.min.js"></script>
@@ -76,7 +75,15 @@ angular.module('app', ['ngResource']);
 
 ## Base Challenges
 
-1. Display all the books in an aesthetically pleasing layout.
+We're going to build a CRUD app like the `$http` one we built yesterday but using `$resource`.
+1. Display all the books with all their attributes including the photo.
 1. Create a form to add a new book. Make it work!
-1. Add a delete book button next to each book. Make it work!
-1. Add edit functionality.
+1. Add an edit button next to each book. Make it work!
+1. Add a delete button next to each book. Make it work!
+
+## Stretch Challenges
+Link the `name` of each book to a view that shows only the details for that book. **Hints:**
+
+* Use `ngRoute` and `ng-view` to set up multiple views in your Angular app.
+* Use `$routeParams` to figure out which book to display.
+* Your view for a single book will have a different controller than your view that displays all books.
