@@ -56,7 +56,7 @@
 * [Angular Directives](angular-directives.md)
   * [Challenges](angular-directives-challenges.md)
 * [Angular Routing](angular-routing.md)
-* [Challenges](angular-routing-challenges.md)
+  * [Challenges](angular-routing-challenges.md)
 <!-- * [Angular ngResource](angular-resource.md) -->
 * [Custom Angular Directives](angular-custom-directives.md)
 <!-- * [Challenges](angular-custom-directives-challenges.md) -->
@@ -84,7 +84,7 @@
   * [Iterators](/interview_prep/iterators.md)
     * [Solutions](/interview_prep/iterators-solutions.md)
   * [Iterators2](/interview_prep/iterators2.md)
-    * [Solutions](/interview_prep/iterators2-solutions)
+    * [Solutions](/interview_prep/iterators2-solutions.md)
   * [Merge Sort](/interview_prep/merge-sort.md)
   * [Bubble Sort](/interview_prep/bubble-sort.md)
   * [Regex](/interview_prep/regex.md)
