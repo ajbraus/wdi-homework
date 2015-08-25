@@ -56,7 +56,7 @@
 * [Angular Directives](angular-directives.md)
   * [Challenges](angular-directives-challenges.md)
 * [Angular Routing](angular-routing.md)
-<!-- * [Challenges](angular-routing-challenges.md) -->
+  * [Challenges](angular-routing-challenges.md)
 <!-- * [Angular ngResource](angular-resource.md) -->
 * [Custom Angular Directives](angular-custom-directives.md)
 <!-- * [Challenges](angular-custom-directives-challenges.md) -->
@@ -84,7 +84,7 @@
   * [Iterators](/interview_prep/iterators.md)
     * [Solutions](/interview_prep/iterators-solutions.md)
   * [Iterators2](/interview_prep/iterators2.md)
-    * [Solutions](/interview_prep/iterators2-solutions)
+    * [Solutions](/interview_prep/iterators2-solutions.md)
   * [Merge Sort](/interview_prep/merge-sort.md)
   * [Bubble Sort](/interview_prep/bubble-sort.md)
   * [Regex](/interview_prep/regex.md)
@@ -92,6 +92,9 @@
   * [Stacks and Queues](/interview_prep/stacks_and_queues.md)
   * [Stacks](/interview_prep/stacks.md)
     * [Solution](/interview_prep/stacks-solution.md)
+  * [Linked Lists](/interview_prep/linked-lists.md)
+  * [White Boarding 1](white-barding-1.md)
+    * [Solutions](white-boarding-1-solutions.md)
 * [Labs](/labs/README.md)
   * [Build a Portfolio](/labs/portfolio-lab/README.md)
   * [Todo Lab](/labs/todo-lab/README.md)
@@ -102,6 +105,7 @@
   * [Blog Lab](/labs/rails-blog-lab/README.md)
   * [Authentication in Rails Lab](/labs/rails-auth-lab/README.md)
   * [Pull Request Day](/labs/pull-request-day/README.md)
+  * [Angular Weekend Lab](/labs/angular-lab/README.md)
 * [Projects](/projects/README.md)
   * [Project 0](/projects/project-0-microblog.md)
   * [Project 1](/projects/project-1.md)
