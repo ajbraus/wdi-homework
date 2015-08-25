@@ -34,7 +34,7 @@ Please submit [this form](https://docs.google.com/a/generalassemb.ly/forms/d/1zS
 |  | Monday | Tuesday | Wednesday | Thursday | Friday |
 | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
 | **Interview Prep** | Mock Interviews | Linked Lists I | Linked Lists II | Mock Interviews |  |
-| **Module 1** | [Intro to Angular](angular-intro.md) ([Challenges](angular-intro-challenges.md)) Adam | [Angular Routing](angular-routing.md) Adam | [ngResource](angular-resource.md) Juliana | Review Briana/Cameron | Weekend Project |
+| **Module 1** | [Intro to Angular](angular-intro.md) [(Challenges)](angular-intro-challenges.md) Adam | [Angular Routing](angular-routing.md) [(Challenges)](angular-routing-challenges.md) Adam | [ngResource](angular-resource.md) Juliana | Review Briana/Cameron | Weekend Project |
 | **Module 2** | [Angular Directives](angular-directives.md) Juliana/Briana | [$http](angular-controllers.md) Cameron/Juliana | [Custom Angular Directives](angular-custom-directives.md) Adam/Cameron | Angular Weekend Project | Weekend Project |
 | **Evening Tutorials** | [Angular Routing Tutorial](angular-routing.md) | [Angular Custom Directive Tutorial](angular-custom-directives.md) | Complete All Challenges from the Week | Weekend Project |  Weekend Project |
 
