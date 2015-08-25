@@ -102,6 +102,7 @@
   * [Blog Lab](/labs/rails-blog-lab/README.md)
   * [Authentication in Rails Lab](/labs/rails-auth-lab/README.md)
   * [Pull Request Day](/labs/pull-request-day/README.md)
+  * [Angular Weekend Lab](/labs/angular-lab/README.md)
 * [Projects](/projects/README.md)
   * [Project 0](/projects/project-0-microblog.md)
   * [Project 1](/projects/project-1.md)
