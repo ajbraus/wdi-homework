@@ -97,7 +97,8 @@ To create application routes, we are going to use `ng-route`. `ng-route` helps u
 
 ## Configure our Routes
 
-1. Using the `.config()` method, we request the $routeProvider to be injected into our config function and use the `$routeProvider.when()` method to define our routes. Open up your `app.js` file. We're going to dot-chain our route information off our app. Put this code at the top of the file right below where you define the app.
+1. Using the `.config()` method, we request the `$routeProvider` to be injected into our config function and use the `$routeProvider.when()` method to define our routes. Open up your `app.js` file. We're going to dot-chain our route information off our app. Put this code at the top of the file right below where you define the app.
+
   ```js
   angular.module('starter', ['ngRoute'])
   .config(['$routeProvider',
@@ -105,20 +106,22 @@ To create application routes, we are going to use `ng-route`. `ng-route` helps u
         $routeProvider.
           when('/', {
             templateUrl: 'templates/todos.html',
-            controller: 'TodoCtrl'
+            controller: 'TodoIndexCtrl'
           }).
           otherwise({
             redirectTo: '/'
           });
       }]);
   ```
+  **Remember** to rename your `TodoCtrl` to `TodoIndexCtrl` - Gotta keep things **RESTful**.
 
 ## Setting up our Controllers
 
 1. Create a new file in your top level called `controllers.js`.
+1. Add the file to your `<head>` `<script src="controllers.js"></script>`
 1. Move your `MainCtrl` from `app.js` to this new file.
   ```js
-  angular.modules('starter', [])
+  angular.module('starter.controllers', [])
   .controller('MainCtrl', ['$scope', '$rootScope',
       function($scope, $rootScope) {
         ...
@@ -127,11 +130,17 @@ To create application routes, we are going to use `ng-route`. `ng-route` helps u
   ```
 1. Move your `TodoCtrl` from `app.js` to this new file.
   ```js
-  .controller('TodoCtrl', ['$scope',
+  .controller('TodoIndexCtrl', ['$scope',
       function($scope) {
         ...
       }
   ])
   ```
 
-1. Make sure everything gets loaded correctly. YAY!!
+1. Inject `starter.controllers` in to your app like this:
+
+  ```js
+    angular.module('starter', ['ngRoute', 'starter.controllers'])
+  ```
+
+1. Use `console.log` to see if your controllers are working.
