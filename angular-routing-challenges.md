@@ -11,7 +11,7 @@
 ## Base Challenges
 
 **Objective 1: Add multiple views to your todo app using `ng-route`**
-1. Add a navbar to your layout template (`index.html`) that will navigate between your home page and your new programming page. Use `ng-href` to make links to your other pages.
+1. Add a navbar to your layout template (`index.html`) that will navigate between your home page and your new about us page. Use `ng-href` to make links to your other pages.
 1. Add another route to the URL `/about-us` with a template `about-us.html` and just put your name in the template. Don't include a controller for this page because it is static.
 
 **Objective 2: Create a restful routing for a resource**
@@ -31,5 +31,5 @@
 1. Inside the list add a button that marks all todos as done.
 1. Add a button to delete all completed todos.
 
-**Bonus Challenge** 
+**Bonus Challenge**
 1. Use the bootstrap modal to create sign up and login modals (make sure these are narrow modals! not wide ones). Have the login and signup buttons and modals live in the MainCtrl. Put the `login` and `signup` functions in the `$scope` of the `MainCtrl`. That will give you the access to these modals and functions in all views. Have the signup and login functions just console log a `$scope.user` with email and password object you would send to the server.
