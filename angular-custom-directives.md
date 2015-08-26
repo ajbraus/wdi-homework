@@ -42,7 +42,7 @@ app.directive('currentWeather', function() {
       city: '@'
     },
     template: '<div class="current-weather"><h4>Weather for {{city}}</h4>{{weather.main.temp}}</div>',
-    //tempalteUrl: 'templates/current-weather-template.html',
+    //templateUrl: 'templates/current-weather-template.html',
     //transclude: true,
     controller: ['$scope', '$http',
       function ($scope, $http) {
