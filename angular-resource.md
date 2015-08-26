@@ -87,3 +87,5 @@ Link the `name` of each book to a view that shows only the details for that book
 * Use `ngRoute` and `ng-view` to set up multiple views in your Angular app.
 * Use `$routeParams` to figure out which book to display.
 * Your view for a single book will have a different controller than your view that displays all books.
+
+Add a filter (client side search) to your app. See docs here: https://docs.angularjs.org/api/ng/filter/filter
