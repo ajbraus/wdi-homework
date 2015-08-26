@@ -61,7 +61,7 @@
   * [Solution](angular-http-solution.md)
 * [Angular ngResource](angular-resource.md)
 * [Custom Angular Directives](angular-custom-directives.md)
-<!-- * [Challenges](angular-custom-directives-challenges.md) -->
+* [Challenges](angular-custom-directives-challenges.md)
 <!-- * [Usability](usability.md) -->
 * [How To...](/how_to/README.md)
   * [Keyboard Shortcuts](/how_to/keyboard-shortcuts.md)
