@@ -57,7 +57,9 @@
   * [Challenges](angular-directives-challenges.md)
 * [Angular Routing](angular-routing.md)
   * [Challenges](angular-routing-challenges.md)
-<!-- * [Angular ngResource](angular-resource.md) -->
+* [$http](angular-http.md)
+  * [Solution](angular-http-solution.md)
+* [Angular ngResource](angular-resource.md)
 * [Custom Angular Directives](angular-custom-directives.md)
 <!-- * [Challenges](angular-custom-directives-challenges.md) -->
 <!-- * [Usability](usability.md) -->
