@@ -18,7 +18,7 @@ angular.module('app', ['ngResource']);
 1. To use `$resource` inside your controller/service you need to declare a dependency on `$resource`. The next step is calling the `$resource()` function with your REST endpoint, as shown in the following example. This function call returns a `$resource` class representation which can be used to interact with the REST backend. Create a `services.js` file and put your new `$resource` service in it.
 
   ```js
-  angular.module('myApp').factory('Book', function($resource) {
+  angular.module('myApp').service('Book', function($resource) {
     return $resource('http://daretodiscover.herokuapp.com/books/:id');
   });
   ```
