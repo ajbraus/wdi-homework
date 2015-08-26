@@ -27,7 +27,7 @@ angular.module('app', ['ngResource']);
 
 1. Let’s see how we can use the `get()`, `query()`, `save()`, and `delete()` methods in a controller:
   ```js
-  angular.module('myApp').controller('ResourceController',function($scope, Book) {
+  angular.module('myApp').controller('BooksCtrl', ['$scope', 'Book', function($scope, Book) {
       $scope.book = Book.get({ id: 200 }, function(data) {
         console.log(data);
       }); // get() returns a single book
@@ -45,7 +45,7 @@ angular.module('app', ['ngResource']);
 
       // delete a book
       Book.delete({id:200});
-  });
+  }]);
   ```
 
   The `get()` function in the above snippet issues a GET request to `/books/:id`.
@@ -54,9 +54,9 @@ angular.module('app', ['ngResource']);
 
   The `save()` function issues a POST request to `/api/entries` with the first argument as the post body. The second argument is a callback which is called when the data is saved.
 
-1. We have explored the create, read and delete parts of CRUD. The only thing left is update. To support an update operation we need to modify our custom factory `Book` as shown below.
+1. We have explored the create, read and delete parts of CRUD. The only thing left is update. To support an update operation we need to modify our custom service `Book` as shown below.
   ```js
-  angular.module('myApp').factory('Book', function($resource) {
+  angular.module('myApp').service('Book', function($resource) {
     return $resource('http://daretodiscover.herokuapp.com/books/:id', { id: '@_id' }, {
       update: {
         method: 'PUT' // this method issues a PUT request
