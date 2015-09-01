@@ -7,9 +7,7 @@
 
 ## Background
 
-With Express and Ruby we learned the Cookie-Session method of authentication. There is a way to use the same method in a **Single Page Application** with AngularJS, however there are some problems:
-
-To avoid these problems the client and the server can exchange an encrypted chunk of JSON called a **JSON Web Token** or JWT (pronounced ''*jot*'')
+With Express and Ruby we learned the Cookie-Session method of authentication; however, there is a better way to do communicate authentication with **Single Page Application** and **Service-Based Architecture**. We're going to use an encrypted chunk of JSON called a **JSON Web Token** or JWT (pronounced ''*jot*'') to communicate authentication between client and server.
 
 ![cookie-token-auth](/images/cookie-token-auth.png)
 > Reference [auth0.com](https://auth0.com/blog/2014/01/07/angularjs-authentication-with-cookies-vs-token/)
